@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720"><defs><filter id="fx1" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="0" stdDeviation="3.33" flood-color="#000000" flood-opacity="0.4"/></filter></defs><rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+<g id="layout-shape-2" data-name="直角三角形 1" transform="rotate(270 998.86 176.3) translate(998.86 176.3) scale(-1 1) translate(-998.86 -176.3)">
+<polygon points="822.56,-104.85 822.56,457.44 1175.15,457.44" fill="#083B5E" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-3" data-name="直角三角形 2" transform="rotate(90 281.14 546.36) translate(281.14 546.36) scale(-1 1) translate(-281.14 -546.36)">
+<polygon points="104.85,265.22 104.85,827.51 457.44,827.51" fill="#083B5E" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-4" data-name="圆角矩形 6">
+<rect x="55.3" y="50" width="1167.92" height="617.74" rx="31.68" ry="31.68" fill="#FFFFFF" stroke="none" stroke-width="1" filter="url(#fx1)"/>
+</g>
+<g id="layout-shape-5" data-name="椭圆 4">
+<ellipse cx="1094.07" cy="80.65" rx="7.45" ry="7.45" fill="#083B5E" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-6" data-name="椭圆 5">
+<ellipse cx="1122.46" cy="80.65" rx="7.45" ry="7.45" fill="#083B5E" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-7" data-name="椭圆 6">
+<ellipse cx="1150.84" cy="80.65" rx="7.45" ry="7.45" fill="#083B5E" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-8" data-name="椭圆 7">
+<ellipse cx="110.98" cy="631.96" rx="7.45" ry="7.45" fill="#083B5E" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-9" data-name="椭圆 8">
+<ellipse cx="139.36" cy="631.96" rx="7.45" ry="7.45" fill="#083B5E" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-10" data-name="椭圆 9">
+<ellipse cx="167.75" cy="631.96" rx="7.45" ry="7.45" fill="#083B5E" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-35" data-name="文本框 34">
+<rect x="97.11" y="85.53" width="105.96" height="48.47" fill="none"/>
+<text x="106.71" y="117.53" text-anchor="start" xml:space="preserve" font-family="sans-serif" font-size="32" fill="#000000"><tspan fill="#000000" font-size="32">LOGO</tspan></text>
+</g>
+<g id="layout-shape-36" data-name="矩形 1">
+<path d="M 245.6 324.41 L 245.6 192 L 1034.4 192 L 1034.4 324.41" fill="none" stroke-width="3" stroke="#26476A"/>
+</g>
+<g id="layout-shape-37" data-name="矩形 1" transform="translate(640 483.59) scale(1 -1) translate(-640 -483.59)">
+<path d="M 245.6 549.79 L 245.6 417.38 L 1034.4 417.38 L 1034.4 549.79" fill="none" stroke-width="3" stroke="#26476A"/>
+</g>
+<g id="layout-shape-39" data-name="直角三角形 38">
+<polygon points="245.6,525.72 245.6,549.79 269.67,549.79" fill="#26476A" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-40" data-name="直角三角形 39" transform="translate(1022.36 537.76) scale(-1 1) translate(-1022.36 -537.76)">
+<polygon points="1010.33,525.72 1010.33,549.79 1034.4,549.79" fill="#26476A" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-44" data-name="同侧圆角矩形 4">
+<rect x="500.87" y="134.26" width="278.26" height="57.74" fill="#26476A" stroke="none" stroke-width="1"/>
+<text x="640" y="171.13" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Regular&quot;, &quot;Alibaba PuHuiTi M&quot;, sans-serif" font-size="32" fill="#000000"><tspan fill="#000000" font-size="32">第五部分</tspan></text>
+</g>
+<g id="shape-45" data-name="组合 44">
+<g id="shape-46" data-name="文本框 45">
+<rect x="332.01" y="307.14" width="616" height="106.6" fill="none"/>
+<text x="332.01" y="381.94" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Regular&quot;, sans-serif" font-size="88" fill="#26476A"><tspan fill="#26476A" font-size="88">解决方案及总结</tspan></text>
+</g>
+<g id="shape-47" data-name="文本框 46">
+<rect x="321.25" y="413.75" width="641.88" height="64.62" fill="none"/>
+<text x="321.25" y="459.09" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Regular&quot;, sans-serif" font-size="53.33" fill="#26476A"><tspan fill="#26476A" font-size="53.33">Transition Page Title</tspan></text>
+</g>
+</g></svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720"><defs><radialGradient id="ggrad1" cx="0.5" cy="0.5" r="0.5"><stop offset="0.48" stop-color="#9B2D1F"/><stop offset="0.04" stop-color="#FFFFFF"/><stop offset="0.99" stop-color="#D34817"/></radialGradient><filter id="fx1" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0.94" dy="0.94" stdDeviation="14.67" flood-color="#69240C" flood-opacity="0.15"/></filter></defs><rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+<g id="layout-shape-4" data-name="椭圆 3">
+<ellipse cx="-3.78" cy="0" rx="74.12" ry="74.12" fill="url(#ggrad1)" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-6" data-name="矩形 5">
+<rect x="0" y="671.28" width="1284.68" height="48.72" fill="#D34817" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-2" data-name="文本框 1">
+<rect x="1029.41" y="47.58" width="173.04" height="71.09" fill="none"/>
+<text x="1115.93" y="97.45" text-anchor="middle" xml:space="preserve" font-family="sans-serif" font-size="58.67" fill="#9B2D1F" font-weight="bold"><tspan fill="#9B2D1F" font-size="58.67" font-weight="bold">LOGO</tspan></text>
+</g>
+<g id="layout-shape-10" data-name="直接连接符 9">
+<line x1="70.33" y1="108" x2="990.85" y2="108" fill="#D34817" stroke="#D34817" stroke-width="1"/>
+</g>
+<g id="shape-2" data-name="文本框 1">
+<rect x="69.33" y="48.67" width="265.57" height="51.7" fill="none"/>
+<text x="69.33" y="84.93" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="42.67" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="42.67" font-weight="bold">点击添加标题</tspan></text>
+</g>
+<g id="shape-3" data-name="文本框 2">
+<rect x="338.36" y="68.66" width="171.98" height="29.08" fill="none"/>
+<text x="338.36" y="89.06" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="24" fill="#A6A6A6"><tspan fill="#A6A6A6" font-size="24">输入您的副标题</tspan></text>
+</g>
+<g id="shape-4" data-name="矩形: 圆角 3">
+<rect x="73" y="171" width="608.76" height="435.33" rx="23.87" ry="23.87" fill="#FFFFFF" stroke="none" stroke-width="1" filter="url(#fx1)"/>
+</g>
+<g id="shape-5" data-name="文本框 4">
+<rect x="732.2" y="171" width="421.33" height="185.92" fill="none"/>
+<text x="732.2" y="191.4" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="24" fill="#000000"><tspan fill="#000000" font-size="24">单击此处输入你的正文，文字是您思想</tspan><tspan x="732.2" dy="31.2" fill="#000000" font-size="24">的提炼，为了最终演示发布的良好效果</tspan><tspan x="732.2" dy="31.2" fill="#000000" font-size="24">，请尽量言简意赅的阐述观点；根据需</tspan><tspan x="732.2" dy="31.2" fill="#000000" font-size="24">要可酌情增减文字，以便观者可以准确</tspan><tspan x="732.2" dy="31.2" fill="#000000" font-size="24">理解您所传达的信息。</tspan></text>
+</g>
+<g id="shape-9" data-name="图表 8">
+<rect x="119.07" y="203.34" width="516.62" height="383.31" fill="none" stroke="#999999" stroke-dasharray="4 4"/><text x="377.38" y="394.99" text-anchor="middle" font-size="14" fill="#999999">[chart]</text>
+</g>
+<g id="shape-11" data-name="文本框 10">
+<rect x="732.2" y="437.21" width="421.33" height="72.53" fill="none"/>
+<text x="702.2" y="457.61" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="24" fill="#000000"><tspan fill="#000000" font-size="24">l </tspan><tspan fill="#000000" font-size="24">单击此处输入你的正文，文字是您思</tspan><tspan x="702.2" dy="31.2" fill="#000000" font-size="24">想的提炼，请尽量言简意赅的阐述观点</tspan></text>
+</g>
+<g id="shape-12" data-name="文本框 11">
+<rect x="732.2" y="514.11" width="421.33" height="72.53" fill="none"/>
+<text x="702.2" y="534.51" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="24" fill="#000000"><tspan fill="#000000" font-size="24">l </tspan><tspan fill="#000000" font-size="24">单击此处输入你的正文，文字是您思</tspan><tspan x="702.2" dy="31.2" fill="#000000" font-size="24">想的提炼，请尽量言简意赅的阐述观点</tspan></text>
+</g>
+<g id="shape-13" data-name="直接连接符 12">
+<line x1="736.97" y1="394.99" x2="1148.77" y2="394.99" stroke-width="3.333" stroke-linecap="round" stroke="#D34817" stroke-opacity="0.74" stroke-dasharray="4 4" fill="#D34817"/>
+</g></svg>

@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720"><defs><radialGradient id="ggrad1" cx="0.5" cy="0.5" r="0.5"><stop offset="0.48" stop-color="#9B2D1F"/><stop offset="0.04" stop-color="#FFFFFF"/><stop offset="0.99" stop-color="#D34817"/></radialGradient><marker id="marrow1" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="2.5" markerHeight="2.5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 L 3 5 z" fill="#000000"/></marker><marker id="marrow2" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="2.5" markerHeight="2.5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 L 3 5 z" fill="#000000"/></marker><marker id="marrow3" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="2.5" markerHeight="2.5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 L 3 5 z" fill="#000000"/></marker><marker id="marrow4" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="2.5" markerHeight="2.5" orient="auto" markerUnits="strokeWidth"><circle cx="5" cy="5" r="4" fill="#000000"/></marker><marker id="marrow5" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="2.5" markerHeight="2.5" orient="auto" markerUnits="strokeWidth"><circle cx="5" cy="5" r="4" fill="#000000"/></marker><marker id="marrow6" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="2.5" markerHeight="2.5" orient="auto" markerUnits="strokeWidth"><circle cx="5" cy="5" r="4" fill="#000000"/></marker></defs><rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+<g id="layout-shape-4" data-name="椭圆 3">
+<ellipse cx="-3.78" cy="0" rx="74.12" ry="74.12" fill="url(#ggrad1)" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-6" data-name="矩形 5">
+<rect x="0" y="671.28" width="1284.68" height="48.72" fill="#D34817" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-2" data-name="文本框 1">
+<rect x="1029.41" y="47.58" width="173.04" height="71.09" fill="none"/>
+<text x="1115.93" y="97.45" text-anchor="middle" xml:space="preserve" font-family="sans-serif" font-size="58.67" fill="#9B2D1F" font-weight="bold"><tspan fill="#9B2D1F" font-size="58.67" font-weight="bold">LOGO</tspan></text>
+</g>
+<g id="layout-shape-10" data-name="直接连接符 9">
+<line x1="70.33" y1="108" x2="990.85" y2="108" fill="#D34817" stroke="#D34817" stroke-width="1"/>
+</g>
+<g id="shape-2" data-name="文本框 1">
+<rect x="69.33" y="48.67" width="265.57" height="51.7" fill="none"/>
+<text x="69.33" y="84.93" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="42.67" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="42.67" font-weight="bold">点击添加标题</tspan></text>
+</g>
+<g id="shape-3" data-name="文本框 2">
+<rect x="338.36" y="68.66" width="171.98" height="29.08" fill="none"/>
+<text x="338.36" y="89.06" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="24" fill="#A6A6A6"><tspan fill="#A6A6A6" font-size="24">输入您的副标题</tspan></text>
+</g>
+<g id="shape-4" data-name="矩形: 圆角 3">
+<rect x="561.76" y="343.52" width="156.48" height="62.67" rx="31.33" ry="31.33" fill="#D34817" stroke="none" stroke-width="1"/>
+<text x="640" y="381.52" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="26.67" fill="#FFFFFF"><tspan fill="#FFFFFF" font-size="26.67">关键词</tspan></text>
+</g>
+<g id="shape-5" data-name="椭圆 4">
+<ellipse cx="740.57" cy="252.19" rx="48" ry="48" fill="#D34817" stroke="none" stroke-width="1"/>
+<text x="702.17" y="256.19" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="16" fill="#FFFFFF"><tspan fill="#FFFFFF" font-size="16">关键词</tspan></text>
+</g>
+<g id="shape-6" data-name="椭圆 5">
+<ellipse cx="465.54" cy="330.71" rx="48" ry="48" fill="#D34817" stroke="none" stroke-width="1"/>
+<text x="427.14" y="334.71" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="16" fill="#FFFFFF"><tspan fill="#FFFFFF" font-size="16">关键词</tspan></text>
+</g>
+<g id="shape-7" data-name="椭圆 6">
+<ellipse cx="661.25" cy="526.42" rx="48" ry="48" fill="#D34817" stroke="none" stroke-width="1"/>
+<text x="622.85" y="530.42" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="16" fill="#FFFFFF"><tspan fill="#FFFFFF" font-size="16">关键词</tspan></text>
+</g>
+<g id="shape-8" data-name="弧形 7" transform="rotate(45 623.81 368.15)">
+<path d="M 572.2 208.98 A 167.33 167.33 0 1 1 647.07 533.86" marker-end="url(#marrow1)" fill="#D34817" stroke="#D34817" stroke-width="1"/>
+</g>
+<g id="shape-9" data-name="弧形 8" transform="rotate(45 623.81 368.15)">
+<path d="M 774.21 441.5 A 167.33 167.33 0 1 1 526.5 232.03" marker-end="url(#marrow2)" fill="#D34817" stroke="#D34817" stroke-width="1"/>
+</g>
+<g id="shape-10" data-name="弧形 9" transform="rotate(45 623.81 368.15)">
+<path d="M 484.98 274.74 A 167.33 167.33 0 0 1 763 275.27" marker-end="url(#marrow3)" fill="#D34817" stroke="#D34817" stroke-width="1"/>
+</g>
+<g id="shape-11" data-name="矩形: 圆角 10">
+<rect x="882.06" y="162.97" width="202.74" height="45.44" rx="22.72" ry="22.72" fill="none" stroke="#D34817" stroke-width="1"/>
+<text x="983.43" y="190.36" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="18.67" fill="#D34817"><tspan fill="#D34817" font-size="18.67">关键词小标题</tspan></text>
+</g>
+<g id="shape-12" data-name="矩形: 圆角 11">
+<rect x="882.06" y="229.47" width="202.74" height="45.44" rx="22.72" ry="22.72" fill="none" stroke="#D34817" stroke-width="1"/>
+<text x="983.43" y="256.86" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="18.67" fill="#D34817"><tspan fill="#D34817" font-size="18.67">关键词小标题</tspan></text>
+</g>
+<g id="shape-13" data-name="矩形: 圆角 12">
+<rect x="882.06" y="295.97" width="202.74" height="45.44" rx="22.72" ry="22.72" fill="none" stroke="#D34817" stroke-width="1"/>
+<text x="983.43" y="323.35" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="18.67" fill="#D34817"><tspan fill="#D34817" font-size="18.67">关键词小标题</tspan></text>
+</g>
+<g id="shape-14" data-name="椭圆 13">
+<ellipse cx="801.5" cy="252.36" rx="3.17" ry="3.17" fill="#D34817" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-15" data-name="直接连接符 14" transform="translate(841.54 214.98) scale(1 -1) translate(-841.54 -214.98)">
+<line x1="807.33" y1="183.11" x2="875.75" y2="246.86" stroke-dasharray="8 4" fill="#D34817" stroke="#D34817" stroke-width="1"/>
+</g>
+<g id="shape-16" data-name="直接连接符 15">
+<line x1="807.33" y1="255.52" x2="875.75" y2="319.11" stroke-dasharray="8 4" fill="#D34817" stroke="#D34817" stroke-width="1"/>
+</g>
+<g id="shape-17" data-name="直接连接符 16">
+<line x1="807.33" y1="251.19" x2="877.75" y2="251.19" stroke-dasharray="8 4" fill="#D34817" stroke="#D34817" stroke-width="1"/>
+</g>
+<g id="shape-18" data-name="矩形: 圆角 17">
+<rect x="811.75" y="440.05" width="202.74" height="45.44" rx="22.72" ry="22.72" fill="none" stroke="#D34817" stroke-width="1"/>
+<text x="913.12" y="467.44" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="18.67" fill="#D34817"><tspan fill="#D34817" font-size="18.67">关键词小标题</tspan></text>
+</g>
+<g id="shape-19" data-name="矩形: 圆角 18">
+<rect x="811.75" y="506.55" width="202.74" height="45.44" rx="22.72" ry="22.72" fill="none" stroke="#D34817" stroke-width="1"/>
+<text x="913.12" y="533.94" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="18.67" fill="#D34817"><tspan fill="#D34817" font-size="18.67">关键词小标题</tspan></text>
+</g>
+<g id="shape-20" data-name="矩形: 圆角 19">
+<rect x="811.75" y="573.05" width="202.74" height="45.44" rx="22.72" ry="22.72" fill="none" stroke="#D34817" stroke-width="1"/>
+<text x="913.12" y="600.43" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="18.67" fill="#D34817"><tspan fill="#D34817" font-size="18.67">关键词小标题</tspan></text>
+</g>
+<g id="shape-21" data-name="椭圆 20">
+<ellipse cx="731.19" cy="529.44" rx="3.17" ry="3.17" fill="#D34817" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-22" data-name="直接连接符 21" transform="translate(771.23 492.06) scale(1 -1) translate(-771.23 -492.06)">
+<line x1="737.02" y1="460.19" x2="805.44" y2="523.94" stroke-dasharray="8 4" fill="#D34817" stroke="#D34817" stroke-width="1"/>
+</g>
+<g id="shape-23" data-name="直接连接符 22">
+<line x1="737.02" y1="532.6" x2="805.44" y2="596.19" stroke-dasharray="8 4" fill="#D34817" stroke="#D34817" stroke-width="1"/>
+</g>
+<g id="shape-24" data-name="直接连接符 23">
+<line x1="737.02" y1="528.27" x2="807.44" y2="528.27" stroke-dasharray="8 4" fill="#D34817" stroke="#D34817" stroke-width="1"/>
+</g>
+<g id="shape-25" data-name="矩形: 圆角 24" transform="translate(223.74 265.74) scale(-1 1) translate(-223.74 -265.74)">
+<rect x="122.37" y="243.02" width="202.74" height="45.44" rx="22.72" ry="22.72" fill="none" stroke="#D34817" stroke-width="1"/>
+<text x="223.74" y="270.4" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="18.67" fill="#D34817"><tspan fill="#D34817" font-size="18.67">关键词小标题</tspan></text>
+</g>
+<g id="shape-26" data-name="矩形: 圆角 25" transform="translate(223.74 332.23) scale(-1 1) translate(-223.74 -332.23)">
+<rect x="122.37" y="309.51" width="202.74" height="45.44" rx="22.72" ry="22.72" fill="none" stroke="#D34817" stroke-width="1"/>
+<text x="223.74" y="336.9" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="18.67" fill="#D34817"><tspan fill="#D34817" font-size="18.67">关键词小标题</tspan></text>
+</g>
+<g id="shape-27" data-name="矩形: 圆角 26" transform="translate(223.74 398.73) scale(-1 1) translate(-223.74 -398.73)">
+<rect x="122.37" y="376.01" width="202.74" height="45.44" rx="22.72" ry="22.72" fill="none" stroke="#D34817" stroke-width="1"/>
+<text x="223.74" y="403.39" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="18.67" fill="#D34817"><tspan fill="#D34817" font-size="18.67">关键词小标题</tspan></text>
+</g>
+<g id="shape-28" data-name="椭圆 27" transform="translate(405.67 332.4) scale(-1 1) translate(-405.67 -332.4)">
+<ellipse cx="405.67" cy="332.4" rx="3.17" ry="3.17" fill="#D34817" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-29" data-name="直接连接符 28" transform="translate(365.63 295.02) scale(-1 -1) translate(-365.63 -295.02)">
+<line x1="331.42" y1="263.15" x2="399.83" y2="326.9" stroke-dasharray="8 4" fill="#D34817" stroke="#D34817" stroke-width="1"/>
+</g>
+<g id="shape-30" data-name="直接连接符 29" transform="translate(365.63 367.36) scale(-1 1) translate(-365.63 -367.36)">
+<line x1="331.42" y1="335.57" x2="399.83" y2="399.15" stroke-dasharray="8 4" fill="#D34817" stroke="#D34817" stroke-width="1"/>
+</g>
+<g id="shape-31" data-name="直接连接符 30" transform="translate(364.63 331.23) scale(-1 1) translate(-364.63 -331.23)">
+<line x1="329.42" y1="331.23" x2="399.83" y2="331.23" stroke-dasharray="8 4" fill="#D34817" stroke="#D34817" stroke-width="1"/>
+</g>
+<g id="shape-32" data-name="直接连接符 31" transform="translate(680.27 317.33) scale(1 -1) translate(-680.27 -317.33)">
+<line x1="657.58" y1="291.13" x2="702.96" y2="343.52" marker-end="url(#marrow4)" fill="#D34817" stroke="#D34817" stroke-width="1"/>
+</g>
+<g id="shape-33" data-name="直接连接符 32" transform="translate(538.98 364.9) scale(-1 -1) translate(-538.98 -364.9)">
+<line x1="516.21" y1="354.95" x2="561.76" y2="374.86" marker-end="url(#marrow5)" fill="#D34817" stroke="#D34817" stroke-width="1"/>
+</g>
+<g id="shape-34" data-name="直接连接符 33">
+<line x1="608.88" y1="406.19" x2="648.75" y2="473.59" marker-end="url(#marrow6)" fill="#D34817" stroke="#D34817" stroke-width="1"/>
+</g></svg>

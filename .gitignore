@@ -1,0 +1,43 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE
+.idea/
+*.iml
+*.code-workspace
+.claude/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Node.js
+node_modules/
+.next/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Project workspace (user-generated, not source)
+projects/*
+!projects/README.md
+
+# Exports (generated PPTX files)
+exports/
+
+# Personal notes
+TODO.md
+PERSONAL_NOTES.md
+drafts/
+scratch/
