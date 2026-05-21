@@ -42,6 +42,26 @@ class GenerateRequest(BaseModel):
     template_id: str | None = None # template to apply (from template library)
 
 
+class StrategistRequest(BaseModel):
+    style: str | None = None
+    page_count: int | None = None
+    template_id: str | None = None
+
+
+class ConfirmRequest(BaseModel):
+    confirmations: str | None = None   # user-edited confirmations.md content
+    page_structure: str | None = None  # user-edited page_structure.md content
+    style: str | None = None
+    page_count: int | None = None
+    image_mode: str = "auto"
+
+
+class ExecutorRequest(BaseModel):
+    style: str | None = None
+    page_count: int | None = None
+    image_mode: str = "auto"
+
+
 def _resolve_project(project_id: str) -> Path:
     matches = [d for d in _PROJECTS_DIR.iterdir() if d.is_dir() and d.name == project_id]
     if not matches:
@@ -151,6 +171,51 @@ def quality_check(project_id: str):
         "output": stdout.strip(),
         "errors": [line for line in stdout.splitlines() if "[ERROR]" in line],
         "warnings": [line for line in stdout.splitlines() if "[WARN]" in line],
+    }
+
+
+@router.get("/{project_id}/design-spec")
+def get_design_spec(project_id: str):
+    """Return design_spec.md content."""
+    project_path = _resolve_project(project_id)
+    spec_file = project_path / "design_spec.md"
+    if not spec_file.exists():
+        raise HTTPException(404, "design_spec.md not found. Run Strategist first.")
+    return {"content": spec_file.read_text(encoding="utf-8")}
+
+
+@router.get("/{project_id}/spec-lock")
+def get_spec_lock(project_id: str):
+    """Return spec_lock.md content."""
+    project_path = _resolve_project(project_id)
+    lock_file = project_path / "spec_lock.md"
+    if not lock_file.exists():
+        raise HTTPException(404, "spec_lock.md not found. Run Strategist first.")
+    return {"content": lock_file.read_text(encoding="utf-8")}
+
+
+@router.get("/{project_id}/quality-report")
+def get_quality_report(project_id: str):
+    """Return quality check results."""
+    project_path = _resolve_project(project_id)
+
+    errors_file = project_path / "quality_errors.log"
+    errors = []
+    if errors_file.exists():
+        errors = [line.strip() for line in errors_file.read_text(encoding="utf-8").splitlines() if line.strip()]
+
+    status_file = project_path / "generation_status.json"
+    status_data = {}
+    if status_file.exists():
+        try:
+            status_data = json.loads(status_file.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            pass
+
+    return {
+        "errors": errors,
+        "stage": status_data.get("stage"),
+        "message": status_data.get("message", ""),
     }
 
 
@@ -278,3 +343,136 @@ def generation_status(project_id: str):
         return json.loads(status_file.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, OSError):
         return {"status": "idle"}
+
+
+@router.post("/{project_id}/generate/strategist")
+def generate_strategist(project_id: str, req: StrategistRequest | None = None):
+    """Run only the Strategist phase. Returns intermediate artifacts for review."""
+    project_path = _resolve_project(project_id)
+
+    # Check no generation already running
+    status_file = project_path / "generation_status.json"
+    if status_file.exists():
+        try:
+            existing = json.loads(status_file.read_text(encoding="utf-8"))
+            if existing.get("status") == "running":
+                raise HTTPException(409, "Generation already in progress")
+        except (json.JSONDecodeError, OSError):
+            pass
+
+    # Prerequisites
+    sources_dir = project_path / "sources"
+    if not sources_dir.exists() or not any(sources_dir.iterdir()):
+        raise HTTPException(400, "No source materials found. Upload sources first.")
+
+    config.load_prefixed_env_file(prefixes=("LLM", "OPENAI", "DEEPSEEK", "MIMO"))
+    has_key = os.environ.get("LLM_API_KEY") or any(os.environ.get(f"{p}_API_KEY") for p in ("OPENAI", "DEEPSEEK", "MIMO"))
+    if not has_key:
+        raise HTTPException(400, "No LLM API key configured. Set a PPT Generation Model in the Settings page first.")
+
+    # Copy template if specified
+    template_id = req.template_id if req else None
+    if template_id:
+        tmpl_src = config.TEMPLATES_DIR / "layouts" / template_id
+        if not tmpl_src.exists():
+            raise HTTPException(404, f"Template not found: {template_id}")
+        tmpl_dst = project_path / "templates"
+        if tmpl_dst.exists():
+            shutil.rmtree(tmpl_dst)
+        shutil.copytree(tmpl_src, tmpl_dst)
+
+    from generator import run_strategist_only
+
+    try:
+        result = run_strategist_only(
+            project_path,
+            style=req.style if req else None,
+            page_count=req.page_count if req else None,
+        )
+        return {"status": "ok", **result}
+    except Exception as e:
+        raise HTTPException(500, detail=str(e))
+
+
+@router.post("/{project_id}/generate/confirm")
+def confirm_and_generate(project_id: str, req: ConfirmRequest):
+    """User confirms/edits Strategist output, then runs Executor + post-processing."""
+    project_path = _resolve_project(project_id)
+
+    # Check no generation already running
+    status_file = project_path / "generation_status.json"
+    if status_file.exists():
+        try:
+            existing = json.loads(status_file.read_text(encoding="utf-8"))
+            if existing.get("status") == "running":
+                raise HTTPException(409, "Generation already in progress")
+        except (json.JSONDecodeError, OSError):
+            pass
+
+    # Prerequisites: spec_lock must exist
+    if not (project_path / "spec_lock.md").exists():
+        raise HTTPException(400, "spec_lock.md not found. Run Strategist first.")
+
+    config.load_prefixed_env_file(prefixes=("LLM", "OPENAI", "DEEPSEEK", "MIMO"))
+    has_key = os.environ.get("LLM_API_KEY") or any(os.environ.get(f"{p}_API_KEY") for p in ("OPENAI", "DEEPSEEK", "MIMO"))
+    if not has_key:
+        raise HTTPException(400, "No LLM API key configured.")
+
+    from generator import run_confirm_and_generate
+
+    thread = threading.Thread(
+        target=run_confirm_and_generate,
+        args=(project_path,),
+        kwargs={
+            "confirmations": req.confirmations,
+            "page_structure": req.page_structure,
+            "style": req.style,
+            "page_count": req.page_count,
+            "image_mode": req.image_mode,
+        },
+        daemon=True,
+    )
+    thread.start()
+
+    return {"status": "started", "project_id": project_id, "phase": "executor"}
+
+
+@router.post("/{project_id}/generate/executor")
+def generate_executor(project_id: str, req: ExecutorRequest | None = None):
+    """Run only Executor + post-processing. Assumes spec_lock.md exists."""
+    project_path = _resolve_project(project_id)
+
+    # Check no generation already running
+    status_file = project_path / "generation_status.json"
+    if status_file.exists():
+        try:
+            existing = json.loads(status_file.read_text(encoding="utf-8"))
+            if existing.get("status") == "running":
+                raise HTTPException(409, "Generation already in progress")
+        except (json.JSONDecodeError, OSError):
+            pass
+
+    # Prerequisites
+    if not (project_path / "spec_lock.md").exists():
+        raise HTTPException(400, "spec_lock.md not found. Run Strategist first.")
+
+    config.load_prefixed_env_file(prefixes=("LLM", "OPENAI", "DEEPSEEK", "MIMO"))
+    has_key = os.environ.get("LLM_API_KEY") or any(os.environ.get(f"{p}_API_KEY") for p in ("OPENAI", "DEEPSEEK", "MIMO"))
+    if not has_key:
+        raise HTTPException(400, "No LLM API key configured.")
+
+    from generator import run_executor_only
+
+    thread = threading.Thread(
+        target=run_executor_only,
+        args=(project_path,),
+        kwargs={
+            "style": req.style if req else None,
+            "page_count": req.page_count if req else None,
+            "image_mode": req.image_mode if req else "auto",
+        },
+        daemon=True,
+    )
+    thread.start()
+
+    return {"status": "started", "project_id": project_id, "phase": "executor"}

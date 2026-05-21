@@ -1195,3 +1195,133 @@ def run_generation_pipeline(
             message=f"Generation failed: {e}",
             error=str(e),
         )
+
+
+# ---------------------------------------------------------------------------
+# Step-by-step API (called from pipeline.py endpoints)
+# ---------------------------------------------------------------------------
+
+def run_strategist_only(
+    project_path: Path,
+    *,
+    style: str | None = None,
+    page_count: int | None = None,
+) -> dict:
+    """Run only the Strategist phase and return intermediate artifacts.
+
+    Returns dict with keys: confirmations, page_structure, design_spec,
+    spec_lock, analysis_meta.
+    """
+    _update_status(
+        project_path,
+        status="running",
+        stage="strategist",
+        message="Running Strategist analysis...",
+    )
+
+    sources_md = _read_sources(project_path)
+    if not sources_md.strip():
+        raise ValueError("No source content found in sources/ directory")
+
+    canvas_format = _detect_canvas_format(project_path)
+    _run_strategist(project_path, sources_md, canvas_format, style, page_count)
+
+    _update_status(project_path, status="completed", stage="strategist_done", message="Strategist phase complete.")
+
+    return {
+        "confirmations": (project_path / "confirmations.md").read_text(encoding="utf-8")
+        if (project_path / "confirmations.md").exists() else "",
+        "page_structure": (project_path / "page_structure.md").read_text(encoding="utf-8")
+        if (project_path / "page_structure.md").exists() else "",
+        "design_spec": (project_path / "design_spec.md").read_text(encoding="utf-8")
+        if (project_path / "design_spec.md").exists() else "",
+        "spec_lock": (project_path / "spec_lock.md").read_text(encoding="utf-8")
+        if (project_path / "spec_lock.md").exists() else "",
+        "analysis_meta": json.loads((project_path / "analysis_meta.json").read_text(encoding="utf-8"))
+        if (project_path / "analysis_meta.json").exists() else {},
+    }
+
+
+def run_executor_only(
+    project_path: Path,
+    *,
+    style: str | None = None,
+    page_count: int | None = None,
+    image_mode: str = "auto",
+) -> None:
+    """Run Executor + quality check + post-processing.
+
+    Assumes spec_lock.md and design_spec.md already exist (from Strategist phase).
+    """
+    started = datetime.now(timezone.utc).isoformat()
+    _update_status(
+        project_path,
+        status="running",
+        stage="executing",
+        message="Starting Executor phase...",
+        error=None,
+        started_at=started,
+    )
+
+    try:
+        canvas_format = _detect_canvas_format(project_path)
+        canvas_info = config.CANVAS_FORMATS.get(canvas_format, config.CANVAS_FORMATS["ppt169"])
+
+        # Image generation
+        _run_image_generation(project_path, image_mode)
+
+        # Executor
+        _run_executor(project_path, canvas_format, style or "general", page_count)
+
+        # Quality check
+        _update_status(project_path, stage="quality_check", message="Running quality check...")
+        system_prompt = _build_executor_prompt(style or "general")
+        remaining_errors = _run_quality_check_with_retry(
+            project_path, system_prompt, canvas_info, max_retries=2,
+        )
+        if remaining_errors:
+            (project_path / "quality_errors.log").write_text(
+                "\n".join(remaining_errors), encoding="utf-8",
+            )
+            _update_status(
+                project_path,
+                stage="quality_check",
+                message=f"Quality check: {len(remaining_errors)} error(s) remain after auto-fix. Continuing.",
+            )
+
+        # Post-processing
+        _run_post_processing(project_path)
+
+        _update_status(project_path, status="completed", stage="done", message="Generation complete!")
+
+    except Exception as e:
+        _update_status(
+            project_path,
+            status="error",
+            message=f"Executor phase failed: {e}",
+            error=str(e),
+        )
+        raise
+
+
+def run_confirm_and_generate(
+    project_path: Path,
+    *,
+    confirmations: str | None = None,
+    page_structure: str | None = None,
+    style: str | None = None,
+    page_count: int | None = None,
+    image_mode: str = "auto",
+) -> None:
+    """Save user-edited confirmations/page_structure, then run full remaining pipeline.
+
+    Called after user reviews and edits the Strategist output.
+    """
+    # Save user edits
+    if confirmations is not None:
+        (project_path / "confirmations.md").write_text(confirmations, encoding="utf-8")
+    if page_structure is not None:
+        (project_path / "page_structure.md").write_text(page_structure, encoding="utf-8")
+
+    # Run executor + post-processing (spec_lock already exists from strategist)
+    run_executor_only(project_path, style=style, page_count=page_count, image_mode=image_mode)
