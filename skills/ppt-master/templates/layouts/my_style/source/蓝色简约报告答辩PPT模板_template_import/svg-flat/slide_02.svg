@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720"><rect x="0" y="0" width="1280" height="720" fill="none"/>
+<g id="shape-14" data-name="直角三角形 13">
+<polygon points="0.13,448.6 0.13,720 271.4,720" fill="#324274" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-13" data-name="直角三角形 12" transform="rotate(90 135.7 135.63)">
+<polygon points="0.07,-0.07 0.07,271.33 271.33,271.33" fill="#324274" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-15" data-name="直角三角形 14" transform="rotate(180 1144.37 135.57)">
+<polygon points="1008.73,-0.13 1008.73,271.27 1280,271.27" fill="#324274" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-16" data-name="直角三角形 15" transform="rotate(270 1144.3 584.37)">
+<polygon points="1008.67,448.67 1008.67,720.07 1279.93,720.07" fill="#324274" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-22" data-name="矩形 21">
+<rect x="25.8" y="23.4" width="1228.4" height="673.2" fill="#FFFFFF" stroke="#324274" stroke-width="1"/>
+</g>
+<g id="shape-2" data-name="矩形 1">
+<rect x="75.4" y="68.93" width="1129.13" height="582.13" fill="none" stroke="#324274" stroke-width="1"/>
+</g>
+<g id="shape-3" data-name="文本框 2">
+<rect x="198.67" y="281.53" width="225.53" height="96.8" fill="none"/>
+<text x="311.43" y="347.53" text-anchor="middle" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="72" fill="#324274"><tspan fill="#324274" font-size="72">目</tspan><tspan fill="#324274" font-size="72"> </tspan><tspan fill="#324274" font-size="72">录</tspan></text>
+</g>
+<g id="shape-4" data-name="文本框 3">
+<rect x="170.53" y="378.33" width="281.73" height="38.67" fill="none"/>
+<text x="311.4" y="403.53" text-anchor="middle" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="24" fill="#324274" font-style="italic"><tspan fill="#324274" font-size="24" font-style="italic">C  O  N  T  E  N  T  S</tspan></text>
+</g>
+<g id="shape-5" data-name="椭圆 4">
+<ellipse cx="623.5" cy="299" rx="41.5" ry="41.47" fill="#324274" stroke="none" stroke-width="1"/>
+<text x="623.5" y="305" text-anchor="middle" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="24" fill="#000000"><tspan fill="#000000" font-size="24">02</tspan></text>
+</g>
+<g id="shape-7" data-name="椭圆 6">
+<ellipse cx="623.5" cy="418.6" rx="41.5" ry="41.47" fill="#324274" stroke="none" stroke-width="1"/>
+<text x="623.5" y="424.6" text-anchor="middle" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="24" fill="#000000"><tspan fill="#000000" font-size="24">03</tspan></text>
+</g>
+<g id="shape-8" data-name="椭圆 7">
+<ellipse cx="623.5" cy="179.4" rx="41.5" ry="41.47" fill="#324274" stroke="none" stroke-width="1"/>
+<text x="623.5" y="185.4" text-anchor="middle" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="24" fill="#000000"><tspan fill="#000000" font-size="24">01</tspan></text>
+</g>
+<g id="shape-9" data-name="椭圆 8">
+<ellipse cx="623.5" cy="538.2" rx="41.5" ry="41.47" fill="#324274" stroke="none" stroke-width="1"/>
+<text x="623.5" y="544.2" text-anchor="middle" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="24" fill="#000000"><tspan fill="#000000" font-size="24">04</tspan></text>
+</g>
+<g id="shape-10" data-name="文本框 9">
+<rect x="665" y="152" width="306.27" height="54.8" fill="none"/>
+<text x="674.6" y="188.53" text-anchor="start" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="37.33" fill="#0D0D0D"><tspan fill="#0D0D0D" font-size="37.33">研究背景与意义</tspan></text>
+</g>
+<g id="shape-11" data-name="文本框 10">
+<rect x="665" y="271.6" width="306.27" height="54.8" fill="none"/>
+<text x="674.6" y="308.13" text-anchor="start" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="37.33" fill="#0D0D0D"><tspan fill="#0D0D0D" font-size="37.33">研究内容与目标</tspan></text>
+</g>
+<g id="shape-12" data-name="文本框 11">
+<rect x="665" y="391.2" width="306.27" height="54.8" fill="none"/>
+<text x="674.6" y="427.73" text-anchor="start" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="37.33" fill="#0D0D0D"><tspan fill="#0D0D0D" font-size="37.33">技术路线与方法</tspan></text>
+</g>
+<g id="shape-20" data-name="文本框 19">
+<rect x="665" y="510.8" width="306.27" height="54.8" fill="none"/>
+<text x="674.6" y="547.33" text-anchor="start" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="37.33" fill="#0D0D0D"><tspan fill="#0D0D0D" font-size="37.33">时间进度安排</tspan></text>
+</g></svg>

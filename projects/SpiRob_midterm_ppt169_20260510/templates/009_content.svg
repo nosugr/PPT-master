@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+<rect x="0" y="0" width="1280" height="720" fill="none"/>
+<!-- Corner triangles -->
+<g id="corner-tl" transform="rotate(90 135.7 135.63)">
+<polygon points="0.07,-0.07 0.07,271.33 271.33,271.33" fill="#324274" stroke="none"/>
+</g>
+<g id="corner-bl">
+<polygon points="0.13,448.6 0.13,720 271.4,720" fill="#324274" stroke="none"/>
+</g>
+<g id="corner-tr" transform="rotate(180 1144.37 135.57)">
+<polygon points="1008.73,-0.13 1008.73,271.27 1280,271.27" fill="#324274" stroke="none"/>
+</g>
+<g id="corner-br" transform="rotate(270 1144.3 584.37)">
+<polygon points="1008.67,448.67 1008.67,720.07 1279.93,720.07" fill="#324274" stroke="none"/>
+</g>
+<!-- Inner frame -->
+<rect x="25.8" y="23.4" width="1228.4" height="673.2" fill="#FFFFFF" stroke="#324274" stroke-width="1"/>
+<!-- Page header -->
+<text x="640" y="98.33" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="37.33" fill="#324274">{{PAGE_TITLE}}</text>
+<!-- Card 1 (left) -->
+<rect x="143.93" y="258.4" width="266.4" height="340.13" rx="44.4" ry="44.4" fill="#324274" stroke="none"/>
+<ellipse cx="277.13" cy="258.67" rx="55.33" ry="55.53" fill="#FFFFFF" stroke="none"/>
+<ellipse cx="277.1" cy="258.67" rx="44.37" ry="45.6" fill="#324274" stroke="none"/>
+<text x="277.17" y="377.13" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="32" fill="#FFFFFF">{{CARD_01_TITLE}}</text>
+<text x="277.17" y="436.33" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="18.67" fill="#FFFFFF">{{CARD_01_DESC}}</text>
+<!-- Card 2 (center) -->
+<rect x="506.73" y="258.4" width="266.4" height="340.13" rx="44.4" ry="44.4" fill="#324274" stroke="none"/>
+<ellipse cx="639.93" cy="258.67" rx="55.33" ry="55.53" fill="#FFFFFF" stroke="none"/>
+<ellipse cx="639.9" cy="258.67" rx="44.37" ry="45.6" fill="#324274" stroke="none"/>
+<text x="639.97" y="377.13" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="32" fill="#FFFFFF">{{CARD_02_TITLE}}</text>
+<text x="639.9" y="436.33" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="18.67" fill="#FFFFFF">{{CARD_02_DESC}}</text>
+<!-- Card 3 (right) -->
+<rect x="869.53" y="258.4" width="266.4" height="340.13" rx="44.4" ry="44.4" fill="#324274" stroke="none"/>
+<ellipse cx="1002.73" cy="258.67" rx="55.33" ry="55.53" fill="#FFFFFF" stroke="none"/>
+<ellipse cx="1002.7" cy="258.67" rx="44.37" ry="45.6" fill="#324274" stroke="none"/>
+<text x="1002.7" y="377.13" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="32" fill="#FFFFFF">{{CARD_03_TITLE}}</text>
+<text x="1002.7" y="436.33" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="18.67" fill="#FFFFFF">{{CARD_03_DESC}}</text>
+</svg>

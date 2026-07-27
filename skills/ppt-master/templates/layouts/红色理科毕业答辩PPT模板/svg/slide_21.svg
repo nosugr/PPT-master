@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720"><defs><radialGradient id="ggrad1" cx="0.5" cy="0.5" r="0.5"><stop offset="0.48" stop-color="#9B2D1F"/><stop offset="0.04" stop-color="#FFFFFF"/><stop offset="0.99" stop-color="#D34817"/></radialGradient><linearGradient id="ggrad2" x1="0.5" y1="1" x2="0.5" y2="0"><stop offset="0" stop-color="#D34817"/><stop offset="0.99" stop-color="#9B2D1F"/></linearGradient><linearGradient id="ggrad3" x1="0.5" y1="1" x2="0.5" y2="0"><stop offset="0" stop-color="#D34817"/><stop offset="0.99" stop-color="#9B2D1F"/></linearGradient></defs><rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+<g id="layout-shape-4" data-name="椭圆 3">
+<ellipse cx="-3.78" cy="0" rx="74.12" ry="74.12" fill="url(#ggrad1)" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-6" data-name="矩形 5">
+<rect x="0" y="671.28" width="1284.68" height="48.72" fill="#D34817" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-2" data-name="文本框 1">
+<rect x="1029.41" y="47.58" width="173.04" height="71.09" fill="none"/>
+<text x="1115.93" y="97.45" text-anchor="middle" xml:space="preserve" font-family="sans-serif" font-size="58.67" fill="#9B2D1F" font-weight="bold"><tspan fill="#9B2D1F" font-size="58.67" font-weight="bold">LOGO</tspan></text>
+</g>
+<g id="layout-shape-10" data-name="直接连接符 9">
+<line x1="70.33" y1="108" x2="990.85" y2="108" fill="#D34817" stroke="#D34817" stroke-width="1"/>
+</g>
+<g id="shape-2" data-name="文本框 1">
+<rect x="69.33" y="48.67" width="265.57" height="51.7" fill="none"/>
+<text x="69.33" y="84.93" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="42.67" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="42.67" font-weight="bold">点击添加标题</tspan></text>
+</g>
+<g id="shape-3" data-name="文本框 2">
+<rect x="338.36" y="68.66" width="171.98" height="29.08" fill="none"/>
+<text x="338.36" y="89.06" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="24" fill="#A6A6A6"><tspan fill="#A6A6A6" font-size="24">输入您的副标题</tspan></text>
+</g>
+<g id="shape-4" data-name="ï$ḷiḍè">
+<path d="M 1084.24 212.35 L 1122.15 212.35 L 1118.44 220.63 C 1115.06 229.52 1113.24 238.97 1113.24 248.77 C 1113.24 294.5 1152.91 332.66 1205.66 341.48 L 1209.33 341.94 L 1209.33 347.25 L 1194.54 344.14 C 1130.33 327.81 1083.7 278.85 1083.7 220.98 L 1084.24 212.35 Z" fill="#D34817" stroke-width="2" stroke="none" stroke-linejoin="round"/>
+</g>
+<g id="shape-5" data-name="ïṥľïḍè">
+<path d="M 1122.15 212.35 L 1196.49 212.35 C 1203.58 212.35 1209.33 217.05 1209.33 222.85 L 1209.33 341.94 L 1205.66 341.48 C 1152.91 332.66 1113.24 294.5 1113.24 248.77 C 1113.24 238.97 1115.06 229.52 1118.44 220.63 L 1122.15 212.35 Z" fill="#FFFFFF" stroke-width="2" stroke="none" stroke-linejoin="round"/>
+<text x="1199.73" y="289.14" text-anchor="end" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="48" fill="#D34817"><tspan fill="#D34817" font-size="48">02</tspan></text>
+</g>
+<g id="shape-6" data-name="iŝlîḍê">
+<path d="M 500.53 212.35 L 538.44 212.35 L 534.74 220.63 C 531.35 229.52 529.53 238.97 529.53 248.77 C 529.53 294.5 569.21 332.66 621.96 341.48 L 625.63 341.94 L 625.63 347.25 L 610.84 344.14 C 546.62 327.81 500 278.85 500 220.98 L 500.53 212.35 Z" fill="#D34817" stroke-width="2" stroke="none" stroke-linejoin="round"/>
+</g>
+<g id="shape-7" data-name="îSļíďê">
+<path d="M 538.45 212.35 L 612.78 212.35 C 619.88 212.35 625.63 217.05 625.63 222.85 L 625.63 341.94 L 621.96 341.48 C 569.21 332.66 529.53 294.5 529.53 248.77 C 529.53 238.97 531.36 229.52 534.74 220.63 L 538.45 212.35 Z" fill="#FFFFFF" fill-opacity="0.63" stroke-width="2" stroke="none" stroke-linejoin="round"/>
+<text x="616.03" y="289.14" text-anchor="end" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="48" fill="#D34817"><tspan fill="#D34817" font-size="48">01</tspan></text>
+</g>
+<g id="shape-8" data-name="ísļïḓe">
+<rect x="70.67" y="212.35" width="554.96" height="337.96" rx="22.59" ry="22.59" fill="none" stroke-width="1.333" stroke="#D34817" stroke-linejoin="round"/>
+</g>
+<g id="shape-9" data-name="ïŝlïḋè">
+<rect x="654.37" y="212.35" width="554.96" height="337.96" rx="22.59" ry="22.59" fill="none" stroke-width="1.333" stroke="#D34817" stroke-linejoin="round"/>
+</g>
+<g id="shape-10" data-name="矩形 9">
+<rect x="96.44" y="347.25" width="444.52" height="141.48" fill="none"/>
+<text x="96.44" y="367.65" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="24" fill="#808080"><tspan fill="#808080" font-size="24">单击此处输入你的正文，文字是您思想的</tspan><tspan x="96.44" dy="28.8" fill="#808080" font-size="24">提炼，请尽量言简意赅的阐述观点单击此</tspan><tspan x="96.44" dy="28.8" fill="#808080" font-size="24">处输入你的正文，文字是您思想的提炼，</tspan><tspan x="96.44" dy="28.8" fill="#808080" font-size="24">请尽量言简意赅的阐述观点</tspan></text>
+</g>
+<g id="shape-11" data-name="文本框 10">
+<rect x="96.44" y="255.32" width="356.41" height="45.24" fill="none"/>
+<text x="96.44" y="287.05" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="37.33" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="37.33" font-weight="bold">点击添加标题</tspan></text>
+</g>
+<g id="shape-12" data-name="矩形 11" transform="rotate(270 139.77 312.76)">
+<rect x="137.88" y="269.43" width="3.78" height="86.67" fill="url(#ggrad2)" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-13" data-name="文本框 12">
+<rect x="680.14" y="255.32" width="356.41" height="45.24" fill="none"/>
+<text x="680.14" y="287.05" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="37.33" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="37.33" font-weight="bold">点击添加标题</tspan></text>
+</g>
+<g id="shape-14" data-name="矩形 13" transform="rotate(270 723.47 312.76)">
+<rect x="721.58" y="269.43" width="3.78" height="86.67" fill="url(#ggrad3)" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-15" data-name="矩形 14">
+<rect x="680.14" y="347.25" width="444.52" height="141.48" fill="none"/>
+<text x="680.14" y="367.65" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="24" fill="#808080"><tspan fill="#808080" font-size="24">单击此处输入你的正文，文字是您思想的</tspan><tspan x="680.14" dy="28.8" fill="#808080" font-size="24">提炼，请尽量言简意赅的阐述观点单击此</tspan><tspan x="680.14" dy="28.8" fill="#808080" font-size="24">处输入你的正文，文字是您思想的提炼，</tspan><tspan x="680.14" dy="28.8" fill="#808080" font-size="24">请尽量言简意赅的阐述观点</tspan></text>
+</g></svg>

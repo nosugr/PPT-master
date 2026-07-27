@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720"><defs><filter id="fx1" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="0" stdDeviation="3.33" flood-color="#000000" flood-opacity="0.4"/></filter><marker id="marrow1" viewBox="0 0 10 10" refX="0" refY="5" markerWidth="2.5" markerHeight="2.5" orient="auto-start-reverse" markerUnits="strokeWidth"><circle cx="5" cy="5" r="4" fill="#26476A"/></marker><marker id="marrow2" viewBox="0 0 10 10" refX="0" refY="5" markerWidth="2.5" markerHeight="2.5" orient="auto-start-reverse" markerUnits="strokeWidth"><circle cx="5" cy="5" r="4" fill="#26476A"/></marker></defs><rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+<g id="layout-shape-2" data-name="直角三角形 1" transform="rotate(270 1173.69 66.67) translate(1173.69 66.67) scale(-1 1) translate(-1173.69 -66.67)">
+<polygon points="1107.02,-39.65 1107.02,172.98 1240.35,172.98" fill="#083B5E" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-3" data-name="直角三角形 2" transform="rotate(90 106.31 653.33) translate(106.31 653.33) scale(-1 1) translate(-106.31 -653.33)">
+<polygon points="39.65,547.02 39.65,759.65 172.98,759.65" fill="#083B5E" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-4" data-name="圆角矩形 6">
+<rect x="70" y="44" width="1140" height="632" rx="32.42" ry="32.42" fill="#FFFFFF" stroke="none" stroke-width="1" filter="url(#fx1)"/>
+</g>
+<g id="layout-shape-7" data-name="组合 6">
+<g id="layout-shape-8" data-name="任意多边形: 形状 7" transform="translate(261.33 100.2) scale(-1 1) translate(-261.33 -100.2)">
+<path d="M 74.4 106.23 L 96.27 94.17 L 448.27 94.17" fill="none" stroke-width="2.667" stroke="#26476A" stroke-opacity="0" marker-start="url(#marrow1)"/>
+</g>
+<g id="layout-shape-9" data-name="直接连接符 8">
+<line x1="292" y1="102.55" x2="420.45" y2="102.55" fill="none" stroke-width="2.667" stroke="#26476A" stroke-opacity="0"/>
+</g>
+<g id="layout-shape-10" data-name="直接连接符 9">
+<line x1="177.5" y1="85.3" x2="394.95" y2="85.3" fill="none" stroke-width="2.667" stroke="#26476A" stroke-opacity="0"/>
+</g>
+</g>
+<g id="layout-shape-11" data-name="组合 10" transform="translate(1018.67 95.76) scale(-1 1) translate(-1018.67 -95.76)">
+<g id="layout-shape-12" data-name="任意多边形: 形状 11" transform="translate(1018.67 100.2) scale(-1 1) translate(-1018.67 -100.2)">
+<path d="M 831.73 106.23 L 853.6 94.17 L 1205.6 94.17" fill="none" stroke-width="2.667" stroke="#26476A" stroke-opacity="0" marker-start="url(#marrow2)"/>
+</g>
+<g id="layout-shape-13" data-name="直接连接符 12">
+<line x1="1049.33" y1="102.55" x2="1177.78" y2="102.55" fill="none" stroke-width="2.667" stroke="#26476A" stroke-opacity="0"/>
+</g>
+<g id="layout-shape-14" data-name="直接连接符 13">
+<line x1="934.83" y1="85.3" x2="1152.28" y2="85.3" fill="none" stroke-width="2.667" stroke="#26476A" stroke-opacity="0"/>
+</g>
+</g>
+<g id="shape-2" data-name="五边形 5" transform="translate(360.3 534.82) scale(-1 1) translate(-360.3 -534.82)">
+<rect x="80.54" y="491.84" width="559.53" height="85.96" fill="#26476A" stroke-width="1" stroke="none"/>
+</g>
+<g id="shape-3" data-name="五边形 7" transform="rotate(180 919.76 534.82) translate(919.76 534.82) scale(-1 1) translate(-919.76 -534.82)">
+<rect x="640.07" y="491.84" width="559.39" height="85.96" fill="#009DD9" stroke-width="1" stroke="none"/>
+</g>
+<g id="shape-4" data-name="文本框 3">
+<rect x="224.4" y="504.19" width="189.87" height="61.27" fill="none"/>
+<text x="234" y="545.25" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Regular&quot;, sans-serif" font-size="42.67" fill="#FFFFFF"><tspan fill="#FFFFFF" font-size="42.67">国内现状</tspan></text>
+</g>
+<g id="shape-5" data-name="文本框 4">
+<rect x="837.47" y="504.19" width="189.87" height="61.27" fill="none"/>
+<text x="847.07" y="545.25" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Regular&quot;, sans-serif" font-size="42.67" fill="#FFFFFF"><tspan fill="#FFFFFF" font-size="42.67">国外现状</tspan></text>
+</g>
+<g id="shape-6" data-name="文本框 5">
+<rect x="135.27" y="187.67" width="303.93" height="42.01" fill="none"/>
+<text x="144.87" y="215.13" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Regular&quot;, sans-serif" font-size="26.67" fill="#262626" font-weight="bold"><tspan fill="#262626" font-size="26.67" font-weight="bold">点击此处添加标题</tspan></text>
+</g>
+<g id="shape-7" data-name="TextBox 18">
+<rect x="135.27" y="234.87" width="411.73" height="190.33" fill="none"/>
+<text x="144.87" y="257.8" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Regular&quot;, sans-serif" font-size="21.33" fill="#262626"><tspan fill="#262626" font-size="21.33">标题数字等都可以通过点击和重新输入进</tspan><tspan x="144.87" dy="29.87" fill="#262626" font-size="21.33">行更改，可以对字体、字号、颜色、行距</tspan><tspan x="144.87" dy="29.87" fill="#262626" font-size="21.33">等进行修改。标题数字等都可以通过点击</tspan><tspan x="144.87" dy="29.87" fill="#262626" font-size="21.33">和重新输入进行更改，可以对字体、字号</tspan><tspan x="144.87" dy="29.87" fill="#262626" font-size="21.33">、颜色、行距等进行修改。</tspan></text>
+</g>
+<g id="shape-8" data-name="文本框 7">
+<rect x="917.6" y="184.13" width="243.33" height="42.01" fill="none"/>
+<text x="927.2" y="211.6" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Regular&quot;, sans-serif" font-size="26.67" fill="#262626" font-weight="bold"><tspan fill="#262626" font-size="26.67" font-weight="bold">点击此处添加标题</tspan></text>
+</g>
+<g id="shape-9" data-name="TextBox 18">
+<rect x="749.2" y="231.33" width="411.73" height="190.33" fill="none"/>
+<text x="758.8" y="254.27" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Regular&quot;, sans-serif" font-size="21.33" fill="#262626"><tspan fill="#262626" font-size="21.33">标题数字等都可以通过点击和重新输入进</tspan><tspan x="758.8" dy="29.87" fill="#262626" font-size="21.33">行更改，可以对字体、字号、颜色、行距</tspan><tspan x="758.8" dy="29.87" fill="#262626" font-size="21.33">等进行修改。标题数字等都可以通过点击</tspan><tspan x="758.8" dy="29.87" fill="#262626" font-size="21.33">和重新输入进行更改，可以对字体、字号</tspan><tspan x="758.8" dy="29.87" fill="#262626" font-size="21.33">、颜色、行距等进行修改。</tspan></text>
+</g>
+<g id="shape-10" data-name="组合 9">
+<g id="shape-11" data-name="同心圆 6">
+<rect x="530.8" y="425.6" width="218.4" height="218.4" fill="#5EF0F7" stroke-width="3" stroke="none"/>
+</g>
+<g id="shape-12" data-name="椭圆 11">
+<ellipse cx="640" cy="534.75" rx="86.06" ry="86.06" stroke="none" fill="#26476A" stroke-width="1"/>
+</g>
+<g id="shape-13" data-name="文本框 12">
+<rect x="570.79" y="476.64" width="138.41" height="116.2" fill="none"/>
+<text x="640" y="556.24" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Regular&quot;, sans-serif" font-size="88" fill="#FFFFFF" font-weight="bold"><tspan fill="#FFFFFF" font-size="88" font-weight="bold">VS</tspan></text>
+</g>
+</g>
+<g id="shape-14" data-name="文本框 13">
+<rect x="448.36" y="72.73" width="383.28" height="54.93" fill="none"/>
+<text x="640" y="109.27" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Regular&quot;, sans-serif" font-size="37.33" fill="#26476A" font-weight="bold"><tspan fill="#26476A" font-size="37.33" font-weight="bold">在这里输入你的标题</tspan></text>
+</g></svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720"><rect x="0" y="0" width="1280" height="720" fill="none"/>
+<g id="shape-13" data-name="直角三角形 12" transform="rotate(90 135.7 135.63)">
+<polygon points="0.07,-0.07 0.07,271.33 271.33,271.33" fill="#324274" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-14" data-name="直角三角形 13">
+<polygon points="0.13,448.6 0.13,720 271.4,720" fill="#324274" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-16" data-name="直角三角形 15" transform="rotate(270 1144.3 584.37)">
+<polygon points="1008.67,448.67 1008.67,720.07 1279.93,720.07" fill="#324274" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-15" data-name="直角三角形 14" transform="rotate(180 1144.37 135.57)">
+<polygon points="1008.73,-0.13 1008.73,271.27 1280,271.27" fill="#324274" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-24" data-name="矩形 23">
+<rect x="25.8" y="23.4" width="1228.4" height="673.2" fill="#FFFFFF" stroke="#324274" stroke-width="1"/>
+</g>
+<g id="shape-2" data-name="文本框 1">
+<rect x="244.4" y="61.8" width="791.13" height="54.8" fill="none"/>
+<text x="639.97" y="98.33" text-anchor="middle" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="37.33" fill="#324274"><tspan fill="#324274" font-size="37.33">01.</tspan><tspan fill="#324274" font-size="37.33" font-weight="bold">研究背景与意义</tspan></text>
+</g>
+<g id="shape-3" data-name="椭圆 2">
+<ellipse cx="201.63" cy="406.6" rx="43.83" ry="44.4" fill="#324274" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-5" data-name="图片 4">
+<image href="../assets/image9.png" x="181.8" y="386.8" width="39.6" height="39.6" preserveAspectRatio="none"/>
+</g>
+<g id="shape-6" data-name="流程图: 离页连接符 5" transform="rotate(270 456.43 406.53)">
+<rect x="428.93" y="308.93" width="55" height="195.2" fill="#324274" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-7" data-name="文本框 6">
+<rect x="376.27" y="385.6" width="134.4" height="41.87" fill="none"/>
+<text x="443.47" y="413.07" text-anchor="middle" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="26.67" fill="#FFFFFF"><tspan fill="#FFFFFF" font-size="26.67">添加标题</tspan></text>
+</g>
+<g id="shape-8" data-name="流程图: 离页连接符 7" transform="rotate(270 456.43 538.07)">
+<rect x="428.93" y="440.47" width="55" height="195.2" fill="#324274" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-9" data-name="流程图: 离页连接符 8" transform="rotate(270 456.43 274.93)">
+<rect x="428.93" y="177.33" width="55" height="195.2" fill="#324274" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-10" data-name="文本框 9">
+<rect x="376.27" y="254" width="134.4" height="41.87" fill="none"/>
+<text x="443.47" y="281.47" text-anchor="middle" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="26.67" fill="#FFFFFF"><tspan fill="#FFFFFF" font-size="26.67">添加标题</tspan></text>
+</g>
+<g id="shape-11" data-name="文本框 10">
+<rect x="376.27" y="517.2" width="134.4" height="41.87" fill="none"/>
+<text x="443.47" y="544.67" text-anchor="middle" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="26.67" fill="#FFFFFF"><tspan fill="#FFFFFF" font-size="26.67">添加标题</tspan></text>
+</g>
+<g id="shape-12" data-name="直接连接符 11" transform="translate(295.73 325.07) scale(-1 1) translate(-295.73 -325.07)">
+<line x1="232.6" y1="274.93" x2="358.87" y2="375.2" stroke="#324274" fill="#6096E6" stroke-width="1"/>
+</g>
+<g id="shape-18" data-name="直接连接符 17" transform="translate(302.17 406.57) scale(1 -1) translate(-302.17 -406.57)">
+<line x1="245.47" y1="406.53" x2="358.87" y2="406.6" stroke="#324274" fill="#6096E6" stroke-width="1"/>
+</g>
+<g id="shape-19" data-name="直接连接符 18">
+<line x1="232.6" y1="438" x2="358.87" y2="538.07" stroke="#324274" fill="#6096E6" stroke-width="1"/>
+</g>
+<g id="shape-20" data-name="圆角矩形 19">
+<rect x="569.13" y="234.73" width="543.53" height="80.73" rx="13.46" ry="13.46" fill="none" stroke="#324274" stroke-width="1"/>
+</g>
+<g id="shape-23" data-name="文本框 22">
+<rect x="584.93" y="247.67" width="511.93" height="54.8" fill="none" stroke-width="1" stroke="none"/>
+<text x="594.53" y="268.33" text-anchor="start" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="18.67" fill="#0D0D0D"><tspan fill="#0D0D0D" font-size="18.67">单击此处输入你的正文，文字是您思想的提炼，为了最终演</tspan><tspan x="594.53" dy="22.4" fill="#0D0D0D" font-size="18.67">示发布的良好效果，请尽量言简意赅的阐述观；</tspan><tspan fill="#FFFFFF" font-size="18.67">点</tspan></text>
+</g>
+<g id="shape-25" data-name="圆角矩形 24">
+<rect x="569.13" y="366.13" width="543.53" height="80.73" rx="13.46" ry="13.46" fill="none" stroke="#324274" stroke-width="1"/>
+</g>
+<g id="shape-26" data-name="圆角矩形 25">
+<rect x="569.13" y="497.53" width="543.53" height="80.73" rx="13.46" ry="13.46" fill="none" stroke="#324274" stroke-width="1"/>
+</g>
+<g id="shape-27" data-name="文本框 26">
+<rect x="584.93" y="379.07" width="511.93" height="54.8" fill="none" stroke-width="1" stroke="none"/>
+<text x="594.53" y="399.73" text-anchor="start" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="18.67" fill="#0D0D0D"><tspan fill="#0D0D0D" font-size="18.67">单击此处输入你的正文，文字是您思想的提炼，为了最终演</tspan><tspan x="594.53" dy="22.4" fill="#0D0D0D" font-size="18.67">示发布的良好效果，请尽量言简意赅的阐述观；</tspan><tspan fill="#FFFFFF" font-size="18.67">点</tspan></text>
+</g>
+<g id="shape-28" data-name="文本框 27">
+<rect x="584.93" y="510.53" width="511.93" height="54.8" fill="none" stroke-width="1" stroke="none"/>
+<text x="594.53" y="531.2" text-anchor="start" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="18.67" fill="#0D0D0D"><tspan fill="#0D0D0D" font-size="18.67">单击此处输入你的正文，文字是您思想的提炼，为了最终演</tspan><tspan x="594.53" dy="22.4" fill="#0D0D0D" font-size="18.67">示发布的良好效果，请尽量言简意赅的阐述观；</tspan><tspan fill="#FFFFFF" font-size="18.67">点</tspan></text>
+</g></svg>

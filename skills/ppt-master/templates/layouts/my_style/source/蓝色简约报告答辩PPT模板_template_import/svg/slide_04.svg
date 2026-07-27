@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720"><rect x="0" y="0" width="1280" height="720" fill="none"/>
+<g id="shape-13" data-name="直角三角形 12" transform="rotate(90 135.7 135.63)">
+<polygon points="0.07,-0.07 0.07,271.33 271.33,271.33" fill="#324274" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-14" data-name="直角三角形 13">
+<polygon points="0.13,448.6 0.13,720 271.4,720" fill="#324274" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-15" data-name="直角三角形 14" transform="rotate(180 1144.37 135.57)">
+<polygon points="1008.73,-0.13 1008.73,271.27 1280,271.27" fill="#324274" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-16" data-name="直角三角形 15" transform="rotate(270 1144.3 584.37)">
+<polygon points="1008.67,448.67 1008.67,720.07 1279.93,720.07" fill="#324274" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-17" data-name="矩形 16">
+<rect x="25.8" y="23.4" width="1228.4" height="673.2" fill="#FFFFFF" stroke="#324274" stroke-width="1"/>
+</g>
+<g id="shape-2" data-name="文本框 1">
+<rect x="244.4" y="61.8" width="791.13" height="54.8" fill="none"/>
+<text x="639.97" y="98.33" text-anchor="middle" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="37.33" fill="#324274"><tspan fill="#324274" font-size="37.33">01.</tspan><tspan fill="#324274" font-size="37.33" font-weight="bold">研究背景与意义</tspan></text>
+</g>
+<g id="shape-100" data-name="文本框 99">
+<rect x="143.47" y="542.93" width="992.93" height="54.8" fill="none" stroke-width="1" stroke="none"/>
+<text x="639.93" y="563.6" text-anchor="middle" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="18.67" fill="#0D0D0D"><tspan fill="#0D0D0D" font-size="18.67">单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点；根据需要</tspan><tspan x="639.93" dy="22.4" fill="#0D0D0D" font-size="18.67">可酌情增减文字，以便观者可以准确理解您所传达的信息。</tspan></text>
+</g>
+<g id="shape-3" data-name="椭圆 2">
+<ellipse cx="640" cy="341.27" rx="157.2" ry="154.87" fill="#324274" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-4" data-name="图片 3">
+<image href="../assets/image3.png" x="616.6" y="224.33" width="46.93" height="46.93" preserveAspectRatio="none"/>
+</g>
+<g id="shape-5" data-name="文本框 4">
+<rect x="565.87" y="286.47" width="148.47" height="48.33" fill="none"/>
+<text x="575.47" y="318.47" text-anchor="start" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="32" fill="#FFFFFF"><tspan fill="#FFFFFF" font-size="32">添加标题</tspan></text>
+</g>
+<g id="shape-6" data-name="文本框 5">
+<rect x="508.67" y="346.2" width="262.93" height="100.07" fill="none" stroke-width="1" stroke="none"/>
+<text x="640.13" y="366.87" text-anchor="middle" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="18.67" fill="#FFFFFF"><tspan fill="#FFFFFF" font-size="18.67">单击此处输入你的正文</tspan></text>
+<text x="640.13" y="389.27" text-anchor="middle" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="18.67" fill="#FFFFFF"><tspan fill="#FFFFFF" font-size="18.67">文字是您思想的提炼，为了最</tspan><tspan x="640.13" dy="22.4" fill="#FFFFFF" font-size="18.67">终演示发布的良好效果，请尽</tspan><tspan x="640.13" dy="22.4" fill="#FFFFFF" font-size="18.67">量言简意赅的阐述观点</tspan></text>
+</g>
+<g id="shape-9" data-name="椭圆 8">
+<ellipse cx="1064.73" cy="346.2" rx="157.2" ry="154.87" fill="none" stroke="#324274" stroke-width="1"/>
+</g>
+<g id="shape-10" data-name="图片 9">
+<image href="../assets/image5.png" x="1041.27" y="224.33" width="46.93" height="46.93" preserveAspectRatio="none"/>
+</g>
+<g id="shape-11" data-name="文本框 10">
+<rect x="990.47" y="286.47" width="148.47" height="48.33" fill="none"/>
+<text x="1000.07" y="318.47" text-anchor="start" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="32" fill="#0D0D0D"><tspan fill="#0D0D0D" font-size="32">添加标题</tspan></text>
+</g>
+<g id="shape-12" data-name="文本框 11">
+<rect x="933.2" y="345.53" width="262.93" height="100.07" fill="none" stroke-width="1" stroke="none"/>
+<text x="1064.67" y="366.2" text-anchor="middle" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="18.67" fill="#0D0D0D"><tspan fill="#0D0D0D" font-size="18.67">单击此处输入你的正文</tspan></text>
+<text x="1064.67" y="388.6" text-anchor="middle" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="18.67" fill="#0D0D0D"><tspan fill="#0D0D0D" font-size="18.67">文字是您思想的提炼，为了最</tspan><tspan x="1064.67" dy="22.4" fill="#0D0D0D" font-size="18.67">终演示发布的良好效果，请尽</tspan><tspan x="1064.67" dy="22.4" fill="#0D0D0D" font-size="18.67">量言简意赅的阐述观点</tspan></text>
+</g>
+<g id="shape-19" data-name="椭圆 18">
+<ellipse cx="215.2" cy="341.27" rx="157.2" ry="154.87" fill="none" stroke="#324274" stroke-width="1"/>
+</g>
+<g id="shape-20" data-name="图片 19">
+<image href="../assets/image7.png" x="191.93" y="224.33" width="46.93" height="46.93" preserveAspectRatio="none"/>
+</g>
+<g id="shape-21" data-name="文本框 20">
+<rect x="141.07" y="286.47" width="148.47" height="48.33" fill="none"/>
+<text x="150.67" y="318.47" text-anchor="start" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="32" fill="#0D0D0D"><tspan fill="#0D0D0D" font-size="32">添加标题</tspan></text>
+</g>
+<g id="shape-22" data-name="文本框 21">
+<rect x="83.6" y="344.87" width="262.93" height="100.07" fill="none" stroke-width="1" stroke="none"/>
+<text x="215.07" y="365.53" text-anchor="middle" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="18.67" fill="#0D0D0D"><tspan fill="#0D0D0D" font-size="18.67">单击此处输入你的正文</tspan></text>
+<text x="215.07" y="387.93" text-anchor="middle" xml:space="preserve" font-family="&quot;MiSans Normal&quot;, sans-serif" font-size="18.67" fill="#0D0D0D"><tspan fill="#0D0D0D" font-size="18.67">文字是您思想的提炼，为了最</tspan><tspan x="215.07" dy="22.4" fill="#0D0D0D" font-size="18.67">终演示发布的良好效果，请尽</tspan><tspan x="215.07" dy="22.4" fill="#0D0D0D" font-size="18.67">量言简意赅的阐述观点</tspan></text>
+</g></svg>

@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720"><defs><radialGradient id="ggrad1" cx="0.5" cy="0.5" r="0.5"><stop offset="0.48" stop-color="#9B2D1F"/><stop offset="0.04" stop-color="#FFFFFF"/><stop offset="0.99" stop-color="#D34817"/></radialGradient><linearGradient id="ggrad2" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="1" stop-color="#FCECE6"/><stop offset="0" stop-color="#F8CFC1"/></linearGradient><linearGradient id="ggrad3" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="1" stop-color="#D34817" stop-opacity="0"/><stop offset="0" stop-color="#D34817" stop-opacity="0.38"/></linearGradient><linearGradient id="ggrad4" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="1" stop-color="#F8CFC1"/><stop offset="0" stop-color="#F19F83"/></linearGradient><linearGradient id="ggrad5" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="1" stop-color="#FCECE6"/><stop offset="0" stop-color="#F8CFC1"/></linearGradient><linearGradient id="ggrad6" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="1" stop-color="#D34817" stop-opacity="0"/><stop offset="0" stop-color="#D34817" stop-opacity="0.38"/></linearGradient><linearGradient id="ggrad7" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="1" stop-color="#F8CFC1"/><stop offset="0" stop-color="#F19F83"/></linearGradient><linearGradient id="ggrad8" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="1" stop-color="#FCECE6"/><stop offset="0" stop-color="#F8CFC1"/></linearGradient><linearGradient id="ggrad9" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="1" stop-color="#D34817" stop-opacity="0"/><stop offset="0" stop-color="#D34817" stop-opacity="0.38"/></linearGradient><linearGradient id="ggrad10" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="1" stop-color="#F8CFC1"/><stop offset="0" stop-color="#F19F83"/></linearGradient><linearGradient id="ggrad11" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="1" stop-color="#FCECE6"/><stop offset="0" stop-color="#F8CFC1"/></linearGradient><linearGradient id="ggrad12" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="1" stop-color="#D34817" stop-opacity="0"/><stop offset="0" stop-color="#D34817" stop-opacity="0.38"/></linearGradient><linearGradient id="ggrad13" x1="0.5" y1="0" x2="0.5" y2="1"><stop offset="1" stop-color="#F8CFC1"/><stop offset="0" stop-color="#F19F83"/></linearGradient></defs><rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+<g id="layout-shape-4" data-name="椭圆 3">
+<ellipse cx="-3.78" cy="0" rx="74.12" ry="74.12" fill="url(#ggrad1)" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-6" data-name="矩形 5">
+<rect x="0" y="671.28" width="1284.68" height="48.72" fill="#D34817" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-2" data-name="文本框 1">
+<rect x="1029.41" y="47.58" width="173.04" height="71.09" fill="none"/>
+<text x="1115.93" y="97.45" text-anchor="middle" xml:space="preserve" font-family="sans-serif" font-size="58.67" fill="#9B2D1F" font-weight="bold"><tspan fill="#9B2D1F" font-size="58.67" font-weight="bold">LOGO</tspan></text>
+</g>
+<g id="layout-shape-10" data-name="直接连接符 9">
+<line x1="70.33" y1="108" x2="990.85" y2="108" fill="#D34817" stroke="#D34817" stroke-width="1"/>
+</g>
+<g id="shape-2" data-name="文本框 1">
+<rect x="69.33" y="48.67" width="265.57" height="51.7" fill="none"/>
+<text x="69.33" y="84.93" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="42.67" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="42.67" font-weight="bold">点击添加标题</tspan></text>
+</g>
+<g id="shape-3" data-name="文本框 2">
+<rect x="338.36" y="68.66" width="171.98" height="29.08" fill="none"/>
+<text x="338.36" y="89.06" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="24" fill="#A6A6A6"><tspan fill="#A6A6A6" font-size="24">输入您的副标题</tspan></text>
+</g>
+<g id="shape-32" data-name="组合 31">
+<g id="shape-4" data-name="任意多边形: 形状 3">
+<path d="M 203.47 401.74 L 203.47 401.74 L 203.47 413.07 L 203.47 566.54 L 313.68 362.25 L 203.47 401.74 Z" fill="url(#ggrad2)" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-5" data-name="菱形 4">
+<polygon points="203.81,324.31 311.96,362.99 203.81,401.68 95.66,362.99" fill="#EB7044" stroke-width="1.373" stroke="#D34817"/>
+</g>
+<g id="shape-6" data-name="菱形 5">
+<polygon points="203.81,319.96 299.94,354.35 203.81,388.73 107.68,354.35" fill="#FCECE6" stroke-width="1.373" stroke="#D34817"/>
+</g>
+<g id="shape-7" data-name="菱形 6">
+<polygon points="203.81,310.13 280.03,337.39 203.81,364.66 127.59,337.39" fill="#FCECE6" stroke-width="1.373" stroke="#D34817"/>
+</g>
+<g id="shape-8" data-name="梯形 5" transform="rotate(180 202.13 291.71)">
+<path d="M 95.65 363.27 L 124.42 248.2 L 203.03 220.16 L 279.84 248.2 L 308.61 363.27 L 95.65 363.27 Z" fill="url(#ggrad3)" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-9" data-name="任意多边形: 形状 8" transform="translate(148.83 464.78) scale(-1 1) translate(-148.83 -464.78)">
+<path d="M 94.2 401.74 L 94.2 401.74 L 94.2 413.07 L 94.2 566.54 L 203.47 363.03 L 94.2 401.74 Z" fill="url(#ggrad4)" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-10" data-name="文本框 9">
+<rect x="145.95" y="259.64" width="116.49" height="46.59" fill="none"/>
+<text x="204.2" y="292.34" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="38.47" fill="#D34817"><tspan fill="#D34817" font-size="38.47">关键词</tspan></text>
+</g>
+<g id="shape-11" data-name="任意多边形: 形状 10">
+<path d="M 494.17 401.74 L 494.17 401.74 L 494.17 413.07 L 494.17 566.54 L 604.38 362.25 L 494.17 401.74 Z" fill="url(#ggrad5)" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-12" data-name="菱形 11">
+<polygon points="494.52,324.31 602.67,362.99 494.52,401.68 386.37,362.99" fill="#EB7044" stroke-width="1.373" stroke="#D34817"/>
+</g>
+<g id="shape-13" data-name="菱形 12">
+<polygon points="494.52,319.96 590.65,354.35 494.52,388.73 398.38,354.35" fill="#FCECE6" stroke-width="1.373" stroke="#D34817"/>
+</g>
+<g id="shape-14" data-name="菱形 13">
+<polygon points="494.52,310.13 570.74,337.39 494.52,364.66 418.3,337.39" fill="#FCECE6" stroke-width="1.373" stroke="#D34817"/>
+</g>
+<g id="shape-15" data-name="梯形 5" transform="rotate(180 492.84 291.71)">
+<path d="M 386.36 363.27 L 415.13 248.2 L 493.74 220.16 L 570.54 248.2 L 599.31 363.27 L 386.36 363.27 Z" fill="url(#ggrad6)" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-16" data-name="任意多边形: 形状 15" transform="translate(439.54 464.78) scale(-1 1) translate(-439.54 -464.78)">
+<path d="M 384.91 401.74 L 384.91 401.74 L 384.91 413.07 L 384.91 566.54 L 494.17 363.03 L 384.91 401.74 Z" fill="url(#ggrad7)" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-17" data-name="文本框 16">
+<rect x="436.66" y="259.64" width="116.49" height="46.59" fill="none"/>
+<text x="494.9" y="292.34" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="38.47" fill="#D34817"><tspan fill="#D34817" font-size="38.47">关键词</tspan></text>
+</g>
+<g id="shape-18" data-name="任意多边形: 形状 17">
+<path d="M 784.88 401.74 L 784.88 401.74 L 784.88 413.07 L 784.88 566.54 L 895.09 362.25 L 784.88 401.74 Z" fill="url(#ggrad8)" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-19" data-name="菱形 18">
+<polygon points="785.22,324.31 893.37,362.99 785.22,401.68 677.07,362.99" fill="#EB7044" stroke-width="1.373" stroke="#D34817"/>
+</g>
+<g id="shape-20" data-name="菱形 19">
+<polygon points="785.22,319.96 881.36,354.35 785.22,388.73 689.09,354.35" fill="#FCECE6" stroke-width="1.373" stroke="#D34817"/>
+</g>
+<g id="shape-21" data-name="菱形 20">
+<polygon points="785.22,310.13 861.44,337.39 785.22,364.66 709,337.39" fill="#FCECE6" stroke-width="1.373" stroke="#D34817"/>
+</g>
+<g id="shape-22" data-name="梯形 5" transform="rotate(180 783.54 291.71)">
+<path d="M 677.07 363.27 L 705.84 248.2 L 784.44 220.16 L 861.25 248.2 L 890.02 363.27 L 677.07 363.27 Z" fill="url(#ggrad9)" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-23" data-name="任意多边形: 形状 22" transform="translate(730.25 464.78) scale(-1 1) translate(-730.25 -464.78)">
+<path d="M 675.62 401.74 L 675.62 401.74 L 675.62 413.07 L 675.62 566.54 L 784.88 363.03 L 675.62 401.74 Z" fill="url(#ggrad10)" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-24" data-name="文本框 23">
+<rect x="727.37" y="259.64" width="116.49" height="46.59" fill="none"/>
+<text x="785.61" y="292.34" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="38.47" fill="#D34817"><tspan fill="#D34817" font-size="38.47">关键词</tspan></text>
+</g>
+<g id="shape-25" data-name="任意多边形: 形状 24">
+<path d="M 1075.59 401.74 L 1075.59 401.74 L 1075.59 413.07 L 1075.59 566.54 L 1185.8 362.25 L 1075.59 401.74 Z" fill="url(#ggrad11)" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-26" data-name="菱形 25">
+<polygon points="1075.93,324.31 1184.08,362.99 1075.93,401.68 967.78,362.99" fill="#EB7044" stroke-width="1.373" stroke="#D34817"/>
+</g>
+<g id="shape-27" data-name="菱形 26">
+<polygon points="1075.93,319.96 1172.07,354.35 1075.93,388.73 979.8,354.35" fill="#FCECE6" stroke-width="1.373" stroke="#D34817"/>
+</g>
+<g id="shape-28" data-name="菱形 27">
+<polygon points="1075.93,310.13 1152.15,337.39 1075.93,364.66 999.71,337.39" fill="#FCECE6" stroke-width="1.373" stroke="#D34817"/>
+</g>
+<g id="shape-29" data-name="梯形 5" transform="rotate(180 1074.25 291.71)">
+<path d="M 967.77 363.27 L 996.54 248.2 L 1075.15 220.16 L 1151.96 248.2 L 1180.73 363.27 L 967.77 363.27 Z" fill="url(#ggrad12)" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-30" data-name="任意多边形: 形状 29" transform="translate(1020.96 464.78) scale(-1 1) translate(-1020.96 -464.78)">
+<path d="M 966.32 401.74 L 966.32 401.74 L 966.32 413.07 L 966.32 566.54 L 1075.59 363.03 L 966.32 401.74 Z" fill="url(#ggrad13)" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-31" data-name="文本框 30">
+<rect x="1018.07" y="259.64" width="116.49" height="46.59" fill="none"/>
+<text x="1076.32" y="292.34" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="38.47" fill="#D34817"><tspan fill="#D34817" font-size="38.47">关键词</tspan></text>
+</g>
+</g></svg>

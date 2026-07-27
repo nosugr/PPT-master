@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+<rect x="0" y="0" width="1280" height="720" fill="none"/>
+<!-- Corner triangles -->
+<g id="corner-tl" transform="rotate(90 135.7 135.63)">
+<polygon points="0.07,-0.07 0.07,271.33 271.33,271.33" fill="#324274" stroke="none"/>
+</g>
+<g id="corner-bl">
+<polygon points="0.13,448.6 0.13,720 271.4,720" fill="#324274" stroke="none"/>
+</g>
+<g id="corner-tr" transform="rotate(180 1144.37 135.57)">
+<polygon points="1008.73,-0.13 1008.73,271.27 1280,271.27" fill="#324274" stroke="none"/>
+</g>
+<g id="corner-br" transform="rotate(270 1144.3 584.37)">
+<polygon points="1008.67,448.67 1008.67,720.07 1279.93,720.07" fill="#324274" stroke="none"/>
+</g>
+<!-- Inner frame -->
+<rect x="25.8" y="23.4" width="1228.4" height="673.2" fill="#FFFFFF" stroke="#324274" stroke-width="1"/>
+<!-- Page header -->
+<text x="640" y="98.33" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="37.33" fill="#324274">{{PAGE_TITLE}}</text>
+<!-- Frame border -->
+<rect x="147.33" y="169.27" width="985.4" height="472.2" fill="none" stroke="#324274" stroke-width="1"/>
+<!-- Center image area -->
+<rect x="530.6" y="294.93" width="220.87" height="220.93" fill="none" stroke="#324274" stroke-width="1"/>
+<!-- Numbered circles -->
+<ellipse cx="147.7" cy="315.73" rx="36.77" ry="37.4" fill="#324274" stroke="none"/>
+<text x="147.7" y="321.73" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="24" fill="#000000">01</text>
+<ellipse cx="1132.3" cy="315.73" rx="36.77" ry="37.4" fill="#324274" stroke="none"/>
+<text x="1132.3" y="321.73" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="24" fill="#000000">02</text>
+<ellipse cx="147.7" cy="495.07" rx="36.77" ry="37.4" fill="#324274" stroke="none"/>
+<text x="147.7" y="501.07" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="24" fill="#000000">03</text>
+<ellipse cx="1132.3" cy="495.07" rx="36.77" ry="37.4" fill="#324274" stroke="none"/>
+<text x="1132.3" y="501.07" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="24" fill="#000000">04</text>
+<!-- Top-left label -->
+<text x="194.07" y="290.47" font-family="MiSans Normal, sans-serif" font-size="32" fill="#0D0D0D">{{LABEL_01_TITLE}}</text>
+<text x="194.07" y="327.53" font-family="MiSans Normal, sans-serif" font-size="18.67" fill="#0D0D0D">{{LABEL_01_DESC}}</text>
+<!-- Top-right label -->
+<text x="1085.93" y="290.53" text-anchor="end" font-family="MiSans Normal, sans-serif" font-size="32" fill="#0D0D0D">{{LABEL_02_TITLE}}</text>
+<text x="1085.93" y="327.53" text-anchor="end" font-family="MiSans Normal, sans-serif" font-size="18.67" fill="#0D0D0D">{{LABEL_02_DESC}}</text>
+<!-- Bottom-left label -->
+<text x="194.07" y="467.8" font-family="MiSans Normal, sans-serif" font-size="32" fill="#0D0D0D">{{LABEL_03_TITLE}}</text>
+<text x="194.07" y="504.8" font-family="MiSans Normal, sans-serif" font-size="18.67" fill="#0D0D0D">{{LABEL_03_DESC}}</text>
+<!-- Bottom-right label -->
+<text x="1085.93" y="467.8" text-anchor="end" font-family="MiSans Normal, sans-serif" font-size="32" fill="#0D0D0D">{{LABEL_04_TITLE}}</text>
+<text x="1085.93" y="504.8" text-anchor="end" font-family="MiSans Normal, sans-serif" font-size="18.67" fill="#0D0D0D">{{LABEL_04_DESC}}</text>
+</svg>

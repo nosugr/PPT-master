@@ -1,0 +1,1 @@
+抓取过程分为四个阶段：Packing 阶段双电机同步收紧，使 SpiRob 呈松散螺旋态；Reaching 阶段单侧电机反转，SpiRob 向目标方向伸展；Wrapping 阶段双电机协调差速，SpiRob 螺旋缠绕物体；Grasping 阶段双电机同时收紧，锁紧物体完成抓取。下方表格列出了各阶段的电机动作参数。
