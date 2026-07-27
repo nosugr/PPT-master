@@ -53,6 +53,9 @@ python3 skills/ppt-master/scripts/project_manager.py init <project_name> --forma
 python3 skills/ppt-master/scripts/project_manager.py import-sources <project_path> <source_files_or_URLs...> --move
 python3 skills/ppt-master/scripts/project_manager.py validate <project_path>
 
+# Style extraction (pixel-accurate typography, colors, layout from existing PPTX)
+python3 skills/ppt-master/scripts/extract_style.py <pptx_file_or_directory> -o <output_dir>
+
 # Image tools and SVG quality check
 python3 skills/ppt-master/scripts/analyze_images.py <project_path>/images
 python3 skills/ppt-master/scripts/image_gen.py "prompt" --aspect_ratio 16:9 --image_size 1K -o <project_path>/images
@@ -78,85 +81,76 @@ python3 skills/ppt-master/scripts/svg_to_pptx.py <project_path>
 <claude-mem-context>
 # Memory Context
 
-# [ppt-master] recent context, 2026-05-15 4:52pm GMT+8
+# [ppt-master] recent context, 2026-05-21 8:36pm GMT+8
 
 Legend: 🎯session 🔴bugfix 🟣feature 🔄refactor ✅change 🔵discovery ⚖️decision 🚨security_alert 🔐security_note
 Format: ID TIME TYPE TITLE
 Fetch details: get_observations([IDs]) | Search: mem-search skill
 
-Stats: 50 obs (17,371t read) | 319,651t work | 95% savings
+Stats: 50 obs (19,542t read) | 281,700t work | 93% savings
 
-### May 12, 2026
-S72 Frontend/Backend startup methods inquiry + PPT viewer UI enhancements (SVG image paths, dialog preview, keyboard navigation) (May 12, 7:30 PM)
-S76 关闭多个终端监听进程 / Kill multiple terminal listeners on Windows (May 12, 10:48 PM)
-S77 跟进进程清理 / Follow-up on killing stale listener processes and restarting dev server (May 12, 11:30 PM)
-S78 等待用户重启开发服务器 / Waiting for user to confirm dev server restart (May 12, 11:33 PM)
-S91 User asked whether the ppt-master project calls any external APIs and whether API configuration can be done visually through the frontend UI. (May 12, 11:33 PM)
-### May 14, 2026
-S92 PPT Master 项目新增前端可视化 API 配置页面，替代手动编辑 .env 文件 (May 14, 2:35 PM)
-S93 用户询问项目是否有API调用，以及前端是否可以进行API配置和自定义调用 (May 14, 4:25 PM)
-S94 PPT-Master全栈功能实现：后端生成管道 + 前端进度UI — 用户电脑意外关机后确认上一步操作并完成后续实施 (May 14, 4:40 PM)
-S95 Five backend and frontend fixes for ppt-master: API key isolation, slide preview sizing, back button, LLM output parsing resilience, and template selection flow (May 14, 7:33 PM)
-395 8:05p 🟣 TypeScript SettingsData Interface Updated to Include raw_values Field
-396 8:06p 🔴 Settings Page configuredKeys Now Uses raw_values for Provider Badge Status
-397 8:07p 🔴 llm_client.py Now Resolves DEEPSEEK_* and MIMO_* Keys Natively Without Alias Mapping
-398 " 🔴 pipeline.py Generation Pre-Check Now Accepts DEEPSEEK_API_KEY and MIMO_API_KEY
-399 8:08p ✅ Task #9 Completed: API Key Independence Fix Fully Shipped
-400 8:09p 🟣 Project Detail Page: Adding Back Navigation and Slide Preview Fix (Tasks #10 and #11 Started)
-401 8:10p 🟣 Back Navigation Button Added to Project Detail Page Header
-402 " 🔴 Project Slide Preview Replaced Dialog with Full-Screen Overlay — Tasks #10 and #11 Complete
-403 8:12p ✅ Project Detail Page Cleanup: Dialog Imports and dialogRef Removed
-404 8:17p 🔵 Session Interrupted by Unexpected Computer Shutdown
-405 " 🟣 Frontend Preview and Back Button Changes Completed — TypeScript Clean
-406 8:18p 🔵 Backend Generator Strategist Stage: Eight Confirmations Auto-Resolution Pattern
-407 " 🔵 Generator.py: Strategist Output Parsing, File Writing, and Image Generation Stage Entry
-408 " 🔴 Strategist Output Parsing: Replaced Hard Failure with 4-Strategy Fallback Chain
-409 8:19p 🟣 Added `_extract_minimal_spec_lock()` Helper to Synthesize Fallback spec_lock.md
-410 " 🔵 Executor Stage Still Hard-Fails on Missing SVG Section — No Fallback Yet
-411 8:20p 🔴 Executor SVG Parsing: Added 3-Strategy Fallback Chain and Per-Page Debug Logging
-412 8:21p 🔵 Stale `svg_content = svg_match.group(1).strip()` Line Left After Executor Refactor — Latent Bug
-413 " 🔵 Confirmed: Stale `svg_content = svg_match.group(1).strip()` at Line 446 Will Cause AttributeError
-414 " 🔴 Removed Stale `svg_content = svg_match.group(1).strip()` Line from Executor Loop
-415 8:22p 🔵 Backend Pipeline Router: GenerateRequest Model and Project Resolution
-416 " 🟣 Added `template_id` Field to GenerateRequest in pipeline.py
-417 8:23p 🔵 Template Library Uses Staging Directory Pattern; No `get_template` Function Exists
-418 " 🔵 Template Library Directory Structure: layouts/ with Index JSON and _staging/ Promotion Path
-419 " 🟣 Template ID Support Wired into `start_generation` Endpoint — Copies Layout to Project
-420 " 🟣 Frontend API Client Updated to Support `template_id` in Generate Call
-421 8:24p 🟣 Project Detail Page Imports Templates API and Template Type for Template Selection UI
-422 " 🟣 Project Detail Page Adds Dialog, Input, Upload, and Search Imports for Template Picker UI
-423 8:25p 🟣 Template Picker Dialog State Added to Project Detail Page
-424 " 🟣 Template Picker Dialog Logic Implemented: openGenDialog, startGeneration, handleUploadTemplate
-425 8:27p 🟣 Template Selection Dialog JSX Added to Project Detail Page — Feature Complete
-426 8:28p 🔵 Missing i18n Keys for Template Dialog in en.ts Locale File
-427 " 🟣 Added 5 Missing i18n Keys for Template Dialog to English Locale File
-428 " 🟣 Template Dialog i18n Keys Added to zh-CN and zh-TW Locale Files
-429 8:30p 🟣 Template Selection Feature Passes TypeScript Type Check — All Changes Valid
-430 " 🔵 templates.upload() Return Type is Untyped `any` — staging_id vs id Ambiguity in handleUploadTemplate
-431 8:31p 🔵 templates.register() Returns `{"registered": staging_id, "path": ...}` — Not `id` or `staging_id` Field
-432 " 🔵 Upload Endpoint Does Not Return a Field Containing "staging" — Upload Response Shape Unknown from Grep
-433 " 🔵 Upload Endpoint Returns `staging_id` Field — handleUploadTemplate Fallback Correct
-### May 15, 2026
-447 4:10p 🟣 JSSDL Project PPT Generation Task Initiated
-448 " 🔵 JSSDL-Reproduction Project Image Assets Catalogued
-449 " 🔵 Blue Minimalist PPT Template Import Structure Confirmed
-450 " 🔵 ppt-master Full Pipeline and Workflow Architecture Loaded
-451 4:11p 🔵 JSSDL Document Folder Contains Four Key Source Files Including PPT-Ready Report
-452 " 🔵 PowerShell $_ Pipeline Variable Fails When Invoked via Bash Wrapper
-453 4:38p ⚖️ GitHub Upload Strategy with API Key Protection via .gitignore
-454 4:39p 🔵 ppt-master Project Git State: Remote Configured, Backend Untracked, API Files at Risk
-455 4:47p 🔵 User Learning GitHub Repository Creation Workflow
-456 " 🔵 PPT Master Project Structure and AI Pipeline Discovered
-457 " 🔵 PPT Master Strict Serial Execution Rules and Conversion Scripts Documented
-S96 Upload ppt-master project to GitHub — guidance on repository description and creation options (May 15, 4:47 PM)
-**Investigated**: Read CLAUDE.md and first 50 lines of skills/ppt-master/SKILL.md to understand the project's purpose, architecture, and technical stack in order to compose an accurate GitHub repository description.
+### May 18, 2026
+644 12:40a 🟣 JSSDL PPT Part 2 Redesign Task Initiated
+645 " ✅ Color Palette Normalized Across 5 JSSDL Slides
+646 12:48a 🔵 PowerPoint presentation structure analyzed
+647 12:52a 🟣 JSSDL PPT Part 2 Redesign Request (Slides 13–17+)
+648 12:53a 🟣 New Slide Injected into JSSDL PPT via XML Manipulation
+649 12:55a 🟣 Python Script for Slide25 XML Surgery (Shape Removal + Layout Fixes)
+650 " 🔵 Slide25 Text Replacement Failed Due to String Mismatch
+651 12:59a 🔵 Slide25 Layout Changes Confirmed; Bottom Bar Text Still Needs Manual Fix
+652 " 🔴 Slide25 Bottom Bar Text Fixed via Direct XML Edit
+653 1:00a 🔵 Slide27 Found: Contains Unmodified D1+D2 Mixed Content
+654 1:04a ✅ JSSDL PPT Part 2 Slide Redesign Task Scoped
+655 1:05a 🟣 Slide 27 XML Patch Script for Low-Rank Verification Layout
+656 " ✅ Slide 27 XML Patch Executed Successfully — All 23 Shapes Removed, Layout Restructured
+657 1:08a 🟣 JSSDL PPT v4 Packed from Modified jssdl_unpacked Directory
+658 1:09a 🔵 LibreOffice Not Installed on D:\桌面 Workstation
+659 1:10a ✅ JSSDL PPT Section 2 Modifications Complete — Full State Summary
+S112 Modify PPT-master SKILL.md Step 3 template selection to require user confirmation instead of defaulting to skip (May 18, 1:10 AM)
+660 2:17p ✅ PPT Skill Step 3 Template Selection Now Requires User Confirmation
+661 " 🔵 PPT-Master Template Library Contains 17 Templates Across Diverse Domains
+662 2:18p 🔵 Strategist Step Receives Pre-Confirmed Template — Pipeline Stage Dependency Mapped
+S113 Redesign ppt-master SKILL.md Step 3 to make template selection mandatory and interactive (May 18, 2:18 PM)
+663 2:28p 🔵 PPT-Master Template Selection: Strict Path-Only Trigger Rule
+664 2:31p ✅ PPT-Master Step 3 Redesigned: Template Selection Now MANDATORY and BLOCKING
+S114 Add a mandatory per-page slide structure confirmation step in PPT-Master SKILL.md Step 4, between the eight confirmations and design spec output (May 18, 2:31 PM)
+665 2:39p 🟣 PPT Generation Flow: Pre-Generation Structure Confirmation Step
+666 2:40p 🔵 PPT-Master SKILL.md: Step 4 Strategist Phase with Eight Confirmations
+S115 Refine per-page slide structure confirmation: each page must specify concrete content extracted from source materials, not vague descriptions (May 18, 2:40 PM)
+S116 Add mandatory per-page slide structure confirmation step to ppt-master Step 4, requiring concrete content per page before design spec is written (May 18, 2:44 PM)
+667 2:45p 🟣 SKILL.md Updated: Page Structure Proposal Blocking Step Added to Step 4
+668 2:46p ✅ Strategist Phase Complete Checklist Updated to Include Page Structure Confirmation
+S117 Add minimum font size constraints to PPT generation: body text minimum 12pt, sub-headings minimum 14pt (May 18, 2:46 PM)
+669 2:58p 🟣 PPT Font Size Constraints Added
+670 " 🔵 Font Size References Spread Across 6 PPT Skill Files
+671 " 🔵 executor-base.md Uses Typography Ramp Anchored on body Font Size
+672 2:59p 🔵 shared-standards.md Contains SVG Font Size Examples with Specific Pixel Values
+673 " 🔵 strategist.md Defines Font Size Ramp with Body Baseline Recommendations
+674 3:00p 🔵 Full Font Size Ramp Table Found in strategist.md with Ratio Bands per Role
+S118 Add minimum font size constraints to PPT generation: body text ≥ 12pt, sub-headings ≥ 14pt — COMPLETED (May 18, 3:00 PM)
+675 3:03p 🟣 Minimum Font Size Constraint Added to strategist.md Font Size Ramp
+676 3:06p 🟣 Minimum Font Size Constraint Added to shared-standards.md Basic SVG Rules
+S119 User asked whether Claude can modify an existing PPT file (May 18, 3:06 PM)
+S173 Product improvement analysis for ppt-master: identify prompt improvement opportunities across the Claude skill workflow and backend generator (May 18, 4:50 PM)
+### May 21, 2026
+828 5:01p 🔵 PPT Master Skill Architecture and Pipeline
+829 5:02p 🔵 PPT Master Project Entry Point and Directory Structure
+830 " 🔵 SVG Technical Standards and PPT Export Constraints
+831 5:03p 🔵 Strategist Role: Eight Confirmations, spec_lock Generation, and Visualization Audit
+832 " 🔵 Executor Role: Template Resolution, page_rhythm Discipline, and TTS-Safe Speaker Notes
+833 5:04p 🔵 Three Executor Style Variants: General, Consultant, and Top Consulting
+834 5:05p 🔵 Backend API Layer with Five Routers
+835 " 🔵 Next.js Frontend with Dashboard, Projects, Templates, and Settings Pages
+836 5:07p 🔵 Backend generator.py: Programmatic Pipeline Orchestrator Using LLM Client
+837 " 🔵 FastAPI Pipeline Router: Generate, Finalize, Export Endpoints
+838 5:08p 🔵 Backend Strategist Auto-Resolves Eight Confirmations with Delimiter-Based Output Parsing
+839 " 🔵 Project Detail Page: Five-Stage Generation Pipeline with SVG Preview and i18n
+840 " 🔵 LLM Client: OpenAI-Compatible Wrapper Supporting DeepSeek, OpenAI, and MIMO
+841 " 🔵 Backend Executor: Per-Page LLM Calls with spec_lock Re-Injection and Four-Strategy Output Parsing
+842 5:09p 🔵 Backend Generator Full Pipeline: Six-Stage Orchestration with SVG Retry and Quality Gate
+S174 PPT Master产品改进：确定29项具体改进prompt和代码方案 (May 21, 5:14 PM)
+846 5:19p 🔵 User Shared Abu Cowork as Product Quality Benchmark
+848 " 🔵 Abu Cowork Product Architecture and Feature Set Documented
 
-**Learned**: The ppt-master project at D:\Agent_Project\ppt-master is an AI-driven presentation generation system using a multi-role LLM pipeline (Strategist → Image_Generator → Executor) that converts PDF/DOCX/URL/Markdown source documents into natively editable PPTX via DrawingML/SVG. The project has strict serial execution discipline enforced in SKILL.md (412 lines), dedicated Python conversion scripts, and multiple standalone workflows. It contains .env files with API keys and user project workspaces in projects/ that should not be committed.
-
-**Completed**: Provided a ready-to-use GitHub repository description in English (under 350 characters). Recommended repository creation settings: Public visibility, no auto-generated README, Python .gitignore template, MIT License. Warned about three categories of sensitive/generated files that need .gitignore entries: .env (API keys), exports/ (generated PPTX), and projects/ (user workspaces).
-
-**Next Steps**: User is filling in the GitHub "Create repository" form with the recommended settings and clicking "Create repository". After that, the session will proceed to configure .gitignore and run git push to upload the local project to the new remote repository.
-
-
-Access 320k tokens of past work via get_observations([IDs]) or mem-search skill.
+Access 282k tokens of past work via get_observations([IDs]) or mem-search skill.
 </claude-mem-context>

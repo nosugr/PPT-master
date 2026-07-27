@@ -1,0 +1,78 @@
+No,Filename,Width,Height,AspectRatio,SizeKB,Category,ImageArea_SxS,TextArea_SxS
+1,dl_monitoring.png,2000,800,2.50,193.8,Ultra-wide,812x325,328x600
+2,effect_of_soft_threshold_on_rank_d2.png,1200,1000,1.20,43.5,Near square,720x600,420x600
+3,effect_tau_sparsity_d1_on_far_3d.png,1600,1200,1.33,283.3,Standard landscape,800x600,340x600
+4,effect_tau_sparsity_d1_on_fdr_3d.png,1600,1200,1.33,288.2,Standard landscape,800x600,340x600
+5,exp1_D1_heatmap.png,1700,1040,1.63,44.3,Wide landscape,812x497,328x600
+6,exp1_D2_heatmap.png,1700,1040,1.63,47.8,Wide landscape,812x497,328x600
+7,exp1_D2_init_heatmap.png,1700,1040,1.63,63.2,Wide landscape,812x497,328x600
+8,exp1_D_heatmap.png,1700,1040,1.63,58.3,Wide landscape,812x497,328x600
+9,exp1_P_heatmap.png,1700,1040,1.63,52.2,Wide landscape,812x497,328x600
+10,exp1_X1_boxplot_with_outliers_scale_explanation.png,2750,1144,2.40,111.1,Ultra-wide,812x338,328x600
+11,exp1_X1_heatmap.png,1600,1000,1.60,156.9,Wide landscape,812x508,328x600
+12,exp1_X1_train_vs_detection_boxplot_scale_diagnostic.png,3200,1200,2.67,99.5,Ultra-wide,812x304,328x600
+13,exp1_X1_train_vs_detection_distribution.png,2970,1936,1.53,173.4,Wide landscape,812x529,328x600
+14,exp1_X2_heatmap.png,1600,1000,1.60,174.9,Wide landscape,812x508,328x600
+15,exp1_X_heatmap.png,1600,1000,1.60,167.6,Wide landscape,812x508,328x600
+16,exp1_dl_monitoring.png,2000,800,2.50,214.6,Ultra-wide,812x325,328x600
+17,exp1_jssdl_monitoring.png,2000,800,2.50,95.7,Ultra-wide,812x325,328x600
+18,exp1_objective_components.png,2200,1600,1.38,181.3,Standard landscape,825x600,315x600
+19,exp1_objective_curve.png,1400,800,1.75,95.0,Wide landscape,812x464,328x600
+20,exp1_pca_spe.png,2000,800,2.50,130.5,Ultra-wide,812x325,328x600
+21,exp1_pca_t2.png,2000,800,2.50,169.1,Ultra-wide,812x325,328x600
+22,exp1_rpca_spe.png,2000,800,2.50,141.7,Ultra-wide,812x325,328x600
+23,exp1_rpca_t2.png,2000,800,2.50,173.7,Ultra-wide,812x325,328x600
+24,exp1_singular_values_boxplot.png,3000,1000,3.00,52.0,Ultra-wide,1160x387,1160x193
+25,image1.png,800,800,1.00,10.8,Near square,600x600,540x600
+26,image11.png,800,800,1.00,34.1,Near square,600x600,540x600
+27,image13.png,800,800,1.00,18.6,Near square,600x600,540x600
+28,image15.png,800,800,1.00,28.8,Near square,600x600,540x600
+29,image17.png,800,800,1.00,28.8,Near square,600x600,540x600
+30,image19.png,800,800,1.00,19.9,Near square,600x600,540x600
+31,image21.png,800,800,1.00,29.3,Near square,600x600,540x600
+32,image23.jpeg,510,340,1.50,33.5,Standard landscape,812x541,328x600
+33,image24.png,800,800,1.00,21.8,Near square,600x600,540x600
+34,image26.png,800,800,1.00,19.3,Near square,600x600,540x600
+35,image28.png,800,800,1.00,22.3,Near square,600x600,540x600
+36,image3.png,800,800,1.00,39.6,Near square,600x600,540x600
+37,image30.png,800,800,1.00,31.0,Near square,600x600,540x600
+38,image32.png,800,800,1.00,11.9,Near square,600x600,540x600
+39,image34.png,800,800,1.00,16.0,Near square,600x600,540x600
+40,image36.png,800,800,1.00,28.4,Near square,600x600,540x600
+41,image38.png,800,800,1.00,14.9,Near square,600x600,540x600
+42,image40.png,800,800,1.00,7.9,Near square,600x600,540x600
+43,image42.png,800,800,1.00,7.4,Near square,600x600,540x600
+44,image44.png,800,800,1.00,11.5,Near square,600x600,540x600
+45,image46.png,800,800,1.00,15.1,Near square,600x600,540x600
+46,image48.png,800,800,1.00,28.8,Near square,600x600,540x600
+47,image5.png,800,800,1.00,12.5,Near square,600x600,540x600
+48,image50.png,800,800,1.00,15.4,Near square,600x600,540x600
+49,image52.jpeg,509,340,1.50,33.8,Standard landscape,812x542,328x600
+50,image53.jpeg,510,340,1.50,25.5,Standard landscape,812x541,328x600
+51,image54.jpeg,510,340,1.50,26.6,Standard landscape,812x541,328x600
+52,image55.png,800,800,1.00,9.3,Near square,600x600,540x600
+53,image57.png,800,800,1.00,7.9,Near square,600x600,540x600
+54,image59.png,800,800,1.00,24.3,Near square,600x600,540x600
+55,image61.png,800,800,1.00,28.2,Near square,600x600,540x600
+56,image7.png,800,800,1.00,18.2,Near square,600x600,540x600
+57,image9.png,800,800,1.00,23.4,Near square,600x600,540x600
+58,jssdl_lasso_detection_X1_heatmap.png,1600,1000,1.60,84.3,Wide landscape,812x508,328x600
+59,jssdl_lasso_monitoring.png,2000,800,2.50,208.8,Ultra-wide,812x325,328x600
+60,jssdl_lasso_train_X1_heatmap.png,1600,1000,1.60,43.8,Wide landscape,812x508,328x600
+61,jssdl_lasso_x1_distribution.png,2300,840,2.74,58.9,Ultra-wide,1160x424,1160x156
+62,pca_monitoring.png,2000,1200,1.67,265.9,Wide landscape,812x487,328x600
+63,pca_rpca_projection_comparison.png,2665,1785,1.49,691.0,Standard landscape,812x544,328x600
+64,rpca_cleaning_arrows.png,2665,1081,2.47,361.7,Ultra-wide,812x329,328x600
+65,rpca_monitoring.png,2000,1200,1.67,276.3,Wide landscape,812x487,328x600
+66,tep_train_correlation_heatmap.png,2160,1920,1.12,162.6,Near square,675x600,465x600
+67,tep_train_feature_mean.png,2860,1276,2.24,92.7,Ultra-wide,812x362,328x600
+68,tep_train_feature_std.png,2860,1276,2.24,94.1,Ultra-wide,812x362,328x600
+69,tep_train_raw_heatmap.png,3080,1320,2.33,148.3,Ultra-wide,812x348,328x600
+70,tep_train_standardized_boxplot.png,3080,1320,2.33,91.6,Ultra-wide,812x348,328x600
+71,tep_train_standardized_heatmap.png,3080,1320,2.33,219.8,Ultra-wide,812x348,328x600
+72,tep_train_top_variance_timeseries.png,2860,2200,1.30,851.8,Standard landscape,780x600,360x600
+73,test_heatmap.png,2400,960,2.50,839.2,Ultra-wide,812x325,328x600
+74,train_shared_heatmap.png,2400,900,2.67,703.4,Ultra-wide,812x304,328x600
+75,train_specific_heatmap.png,2400,900,2.67,272.6,Ultra-wide,812x304,328x600
+76,train_y_heatmap.png,2400,900,2.67,754.3,Ultra-wide,812x304,328x600
+77,training_components_space_comparison.png,2665,1785,1.49,591.9,Standard landscape,812x544,328x600

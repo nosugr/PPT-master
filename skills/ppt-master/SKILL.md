@@ -57,6 +57,7 @@ description: >
 | `${SKILL_DIR}/scripts/finalize_svg.py` | SVG post-processing (unified entry) |
 | `${SKILL_DIR}/scripts/svg_to_pptx.py` | Export to PPTX |
 | `${SKILL_DIR}/scripts/update_spec.py` | Propagate a `spec_lock.md` color / font_family change across all generated SVGs |
+| `${SKILL_DIR}/scripts/extract_style.py` | Extract pixel-accurate style parameters from reference PPTX (typography, colors, layout, spacing) |
 
 For complete tool documentation, see `${SKILL_DIR}/scripts/README.md`.
 
@@ -174,7 +175,19 @@ cp ${TEMPLATE_DIR}/*.png <project_path>/images/ 2>/dev/null || true
 cp ${TEMPLATE_DIR}/*.jpg <project_path>/images/ 2>/dev/null || true
 ```
 
-**✅ Checkpoint — User confirmed a template (copied into project) or explicitly chose free design. Proceed to Step 4.**
+**Style extraction** (when user provides a reference PPTX for style matching):
+
+If the user provides a `.pptx` file and says "按这个风格来" / "跟这个一样" / "match this style" / or similar intent to replicate an existing presentation's visual style, run the style extractor:
+
+```bash
+python3 ${SKILL_DIR}/scripts/extract_style.py <reference.pptx> -o <project_path>/style/
+```
+
+This produces `style_blueprint.json` (machine-readable) and `style_guide.md` (AI-readable strict specification). The `style_guide.md` becomes a **binding constraint** for Steps 4 and 6 — see those steps for enforcement rules.
+
+> The style extractor and template selection are complementary: templates provide structural page skeletons (cover/chapter/content SVGs), while `style_guide.md` provides pixel-accurate typography, color, spacing, and layout parameters. Use both together for maximum fidelity.
+
+**✅ Checkpoint — User confirmed a template (copied into project) or explicitly chose free design. Style extracted if reference PPTX provided. Proceed to Step 4.**
 
 ---
 
@@ -186,6 +199,8 @@ First, read the role definition:
 ```
 Read references/strategist.md
 ```
+
+> ⚠️ **Style guide binding**: if `<project_path>/style/style_guide.md` exists, Strategist MUST `read_file` it before the Eight Confirmations. The extracted parameters (font families, font sizes, color palette, margins, spacing) become **hard constraints** — the Eight Confirmations MUST align with these values rather than inventing new ones. For example, if the style guide says the primary font is "微软雅黑" at 22pt bold for titles, the Typography Plan confirmation must specify exactly that.
 
 > ⚠️ **Mandatory gate**: before writing `design_spec.md`, Strategist MUST `read_file templates/design_spec_reference.md` and follow its full I–XI section structure. See `strategist.md` Section 1.
 
@@ -314,6 +329,8 @@ Read references/executor-consultant-top.md # Top consulting style (MBB level)
 > Only read executor-base + shared-standards + one style file.
 
 **Design Parameter Confirmation (Mandatory)**: before the first SVG, output key design parameters from the spec (canvas dimensions, color scheme, font plan, body font size). See executor-base.md §2.
+
+> ⚠️ **Style guide enforcement**: if `<project_path>/style/style_guide.md` exists, Executor MUST `read_file` it before the Design Parameter Confirmation. All SVG generation MUST use the exact values from this file — font families, font sizes, colors, element positions, margins, spacing patterns, and recurring decorative elements. This takes precedence over any approximate values in `design_spec.md`. When `style_guide.md` specifies a title at position (75, 50) with width 1058px, the SVG MUST place it there — not "approximately there".
 
 **Pre-generation Batch Read (Mandatory)**: before the first SVG, batch-read every distinct layout SVG referenced in `spec_lock.page_layouts` and every distinct chart SVG referenced in `spec_lock.page_charts` (plus any §VII backup charts). One read per file, up front — do not re-read these during page generation. See executor-base.md §1.0.
 

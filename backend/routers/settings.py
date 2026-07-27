@@ -88,6 +88,8 @@ SETTINGS_SCHEMA: dict = {
                 {"key": "LLM_API_KEY", "label": "API Key", "type": "password", "required": True},
                 {"key": "LLM_BASE_URL", "label": "Base URL", "type": "text", "required": False, "default": "https://api.deepseek.com/v1"},
                 {"key": "LLM_MODEL", "label": "Model", "type": "text", "required": False, "default": "deepseek-chat"},
+                {"key": "LLM_STRATEGIST_MODEL", "label": "Strategist Model (optional)", "type": "text", "required": False, "default": ""},
+                {"key": "LLM_EXECUTOR_MODEL", "label": "Executor Model (optional)", "type": "text", "required": False, "default": ""},
             ],
         },
         "llm_openai": {
@@ -100,6 +102,8 @@ SETTINGS_SCHEMA: dict = {
                 {"key": "LLM_API_KEY", "label": "API Key", "type": "password", "required": True},
                 {"key": "LLM_BASE_URL", "label": "Base URL", "type": "text", "required": False, "default": "https://api.openai.com/v1"},
                 {"key": "LLM_MODEL", "label": "Model", "type": "text", "required": False, "default": "gpt-4o"},
+                {"key": "LLM_STRATEGIST_MODEL", "label": "Strategist Model (optional)", "type": "text", "required": False, "default": ""},
+                {"key": "LLM_EXECUTOR_MODEL", "label": "Executor Model (optional)", "type": "text", "required": False, "default": ""},
             ],
         },
         "llm_qwen": {
@@ -112,6 +116,8 @@ SETTINGS_SCHEMA: dict = {
                 {"key": "LLM_API_KEY", "label": "API Key", "type": "password", "required": True},
                 {"key": "LLM_BASE_URL", "label": "Base URL", "type": "text", "required": False, "default": "https://dashscope.aliyuncs.com/compatible-mode/v1"},
                 {"key": "LLM_MODEL", "label": "Model", "type": "text", "required": False, "default": "qwen-plus"},
+                {"key": "LLM_STRATEGIST_MODEL", "label": "Strategist Model (optional)", "type": "text", "required": False, "default": ""},
+                {"key": "LLM_EXECUTOR_MODEL", "label": "Executor Model (optional)", "type": "text", "required": False, "default": ""},
             ],
         },
         "llm_custom": {
@@ -124,6 +130,8 @@ SETTINGS_SCHEMA: dict = {
                 {"key": "LLM_API_KEY", "label": "API Key", "type": "password", "required": True},
                 {"key": "LLM_BASE_URL", "label": "Base URL", "type": "text", "required": True},
                 {"key": "LLM_MODEL", "label": "Model", "type": "text", "required": True},
+                {"key": "LLM_STRATEGIST_MODEL", "label": "Strategist Model (optional)", "type": "text", "required": False, "default": ""},
+                {"key": "LLM_EXECUTOR_MODEL", "label": "Executor Model (optional)", "type": "text", "required": False, "default": ""},
             ],
         },
 
@@ -572,12 +580,17 @@ def update_settings(body: SettingsUpdate):
 
 @router.get("/system-info")
 def get_system_info():
-    """Return system information: Python version, projects dir, disk usage."""
+    """Return system information: Python version, projects dir, disk usage, default export path."""
     import sys
     import shutil as _shutil
 
     python_version = f"{sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro}"
     projects_dir = str(config.PROJECTS_DIR)
+
+    # Read default export path from .env
+    env_path = config.resolve_env_path()
+    raw = _read_env_as_dict(env_path) if env_path.exists() else {}
+    default_export_path = raw.get("DEFAULT_EXPORT_PATH", "")
 
     # Disk usage of projects directory
     disk_usage_bytes = 0
@@ -601,9 +614,29 @@ def get_system_info():
     return {
         "python_version": python_version,
         "projects_dir": projects_dir,
+        "default_export_path": default_export_path,
         "disk_usage_bytes": disk_usage_bytes,
         "disk_usage_human": _fmt_size(disk_usage_bytes),
     }
+
+
+class ExportPathUpdate(BaseModel):
+    path: str = ""
+
+
+@router.put("/default-export-path")
+def update_default_export_path(body: ExportPathUpdate):
+    """Set the default PPT export path in .env."""
+    target = config.USER_ENV_FILE
+    existing = _read_env_as_dict(target) if target.exists() else {}
+
+    if body.path.strip():
+        existing["DEFAULT_EXPORT_PATH"] = body.path.strip()
+    elif "DEFAULT_EXPORT_PATH" in existing:
+        del existing["DEFAULT_EXPORT_PATH"]
+
+    _write_env(target, existing)
+    return {"ok": True, "path": body.path.strip()}
 
 
 @router.delete("/clear-all-projects")

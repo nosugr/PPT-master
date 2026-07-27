@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+<rect x="0" y="0" width="1280" height="720" fill="none"/>
+<!-- Corner triangles -->
+<g id="corner-tl" transform="rotate(90 135.7 135.63)">
+<polygon points="0.07,-0.07 0.07,271.33 271.33,271.33" fill="#324274" stroke="none"/>
+</g>
+<g id="corner-bl">
+<polygon points="0.13,448.6 0.13,720 271.4,720" fill="#324274" stroke="none"/>
+</g>
+<g id="corner-tr" transform="rotate(180 1144.37 135.57)">
+<polygon points="1008.73,-0.13 1008.73,271.27 1280,271.27" fill="#324274" stroke="none"/>
+</g>
+<g id="corner-br" transform="rotate(270 1144.3 584.37)">
+<polygon points="1008.67,448.67 1008.67,720.07 1279.93,720.07" fill="#324274" stroke="none"/>
+</g>
+<!-- Inner frame -->
+<rect x="25.8" y="23.4" width="1228.4" height="673.2" fill="#FFFFFF" stroke="#324274" stroke-width="1"/>
+<!-- Inner border -->
+<rect x="75.4" y="68.93" width="1129.13" height="582.13" fill="none" stroke="#324274" stroke-width="1"/>
+<!-- TOC title -->
+<text x="311.43" y="347.53" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="72" fill="#324274">{{TOC_TITLE}}</text>
+<!-- TOC English -->
+<text x="311.4" y="403.53" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="24" fill="#324274" font-style="italic">{{TOC_ENGLISH}}</text>
+<!-- Chapter 1 -->
+<ellipse cx="623.5" cy="179.4" rx="41.5" ry="41.47" fill="#324274" stroke="none"/>
+<text x="623.5" y="185.4" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="24" fill="#000000">01</text>
+<text x="674.6" y="188.53" font-family="MiSans Normal, sans-serif" font-size="37.33" fill="#0D0D0D">{{CHAPTER_01_TITLE}}</text>
+<!-- Chapter 2 -->
+<ellipse cx="623.5" cy="299" rx="41.5" ry="41.47" fill="#324274" stroke="none"/>
+<text x="623.5" y="305" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="24" fill="#000000">02</text>
+<text x="674.6" y="308.13" font-family="MiSans Normal, sans-serif" font-size="37.33" fill="#0D0D0D">{{CHAPTER_02_TITLE}}</text>
+<!-- Chapter 3 -->
+<ellipse cx="623.5" cy="418.6" rx="41.5" ry="41.47" fill="#324274" stroke="none"/>
+<text x="623.5" y="424.6" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="24" fill="#000000">03</text>
+<text x="674.6" y="427.73" font-family="MiSans Normal, sans-serif" font-size="37.33" fill="#0D0D0D">{{CHAPTER_03_TITLE}}</text>
+<!-- Chapter 4 -->
+<ellipse cx="623.5" cy="538.2" rx="41.5" ry="41.47" fill="#324274" stroke="none"/>
+<text x="623.5" y="544.2" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="24" fill="#000000">04</text>
+<text x="674.6" y="547.33" font-family="MiSans Normal, sans-serif" font-size="37.33" fill="#0D0D0D">{{CHAPTER_04_TITLE}}</text>
+</svg>
