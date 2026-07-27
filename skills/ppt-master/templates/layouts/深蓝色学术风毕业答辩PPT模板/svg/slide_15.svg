@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720"><defs><filter id="fx1" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="0" stdDeviation="3.33" flood-color="#000000" flood-opacity="0.4"/></filter><marker id="marrow1" viewBox="0 0 10 10" refX="0" refY="5" markerWidth="2.5" markerHeight="2.5" orient="auto-start-reverse" markerUnits="strokeWidth"><circle cx="5" cy="5" r="4" fill="#26476A"/></marker><marker id="marrow2" viewBox="0 0 10 10" refX="0" refY="5" markerWidth="2.5" markerHeight="2.5" orient="auto-start-reverse" markerUnits="strokeWidth"><circle cx="5" cy="5" r="4" fill="#26476A"/></marker></defs><rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+<g id="layout-shape-2" data-name="直角三角形 1" transform="rotate(270 1173.69 66.67) translate(1173.69 66.67) scale(-1 1) translate(-1173.69 -66.67)">
+<polygon points="1107.02,-39.65 1107.02,172.98 1240.35,172.98" fill="#083B5E" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-3" data-name="直角三角形 2" transform="rotate(90 106.31 653.33) translate(106.31 653.33) scale(-1 1) translate(-106.31 -653.33)">
+<polygon points="39.65,547.02 39.65,759.65 172.98,759.65" fill="#083B5E" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-4" data-name="圆角矩形 6">
+<rect x="70" y="44" width="1140" height="632" rx="32.42" ry="32.42" fill="#FFFFFF" stroke="none" stroke-width="1" filter="url(#fx1)"/>
+</g>
+<g id="layout-shape-7" data-name="组合 6">
+<g id="layout-shape-8" data-name="任意多边形: 形状 7" transform="translate(261.33 100.2) scale(-1 1) translate(-261.33 -100.2)">
+<path d="M 74.4 106.23 L 96.27 94.17 L 448.27 94.17" fill="none" stroke-width="2.667" stroke="#26476A" stroke-opacity="0" marker-start="url(#marrow1)"/>
+</g>
+<g id="layout-shape-9" data-name="直接连接符 8">
+<line x1="292" y1="102.55" x2="420.45" y2="102.55" fill="none" stroke-width="2.667" stroke="#26476A" stroke-opacity="0"/>
+</g>
+<g id="layout-shape-10" data-name="直接连接符 9">
+<line x1="177.5" y1="85.3" x2="394.95" y2="85.3" fill="none" stroke-width="2.667" stroke="#26476A" stroke-opacity="0"/>
+</g>
+</g>
+<g id="layout-shape-11" data-name="组合 10" transform="translate(1018.67 95.76) scale(-1 1) translate(-1018.67 -95.76)">
+<g id="layout-shape-12" data-name="任意多边形: 形状 11" transform="translate(1018.67 100.2) scale(-1 1) translate(-1018.67 -100.2)">
+<path d="M 831.73 106.23 L 853.6 94.17 L 1205.6 94.17" fill="none" stroke-width="2.667" stroke="#26476A" stroke-opacity="0" marker-start="url(#marrow2)"/>
+</g>
+<g id="layout-shape-13" data-name="直接连接符 12">
+<line x1="1049.33" y1="102.55" x2="1177.78" y2="102.55" fill="none" stroke-width="2.667" stroke="#26476A" stroke-opacity="0"/>
+</g>
+<g id="layout-shape-14" data-name="直接连接符 13">
+<line x1="934.83" y1="85.3" x2="1152.28" y2="85.3" fill="none" stroke-width="2.667" stroke="#26476A" stroke-opacity="0"/>
+</g>
+</g>
+<g id="shape-50" data-name="圆角矩形 8">
+<rect x="121.73" y="165.16" width="1065.07" height="439.27" rx="0" ry="0" fill="none" stroke-width="1.333" stroke-linecap="butt" stroke="#617299" stroke-linejoin="miter"/>
+</g>
+<g id="shape-51" data-name="组合 50">
+<g id="shape-52" data-name="椭圆 51">
+<ellipse cx="221.1" cy="320.63" rx="39.94" ry="39.94" fill="#297FD5" stroke-width="2" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+<g id="shape-53" data-name="文本框 2">
+<rect x="170.93" y="294.91" width="100.93" height="56.56" fill="none" stroke="none"/>
+</g>
+<g id="shape-54" data-name="椭圆 53">
+<ellipse cx="221.1" cy="448.95" rx="39.94" ry="39.94" fill="#629DD1" stroke-width="2" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+<g id="shape-55" data-name="文本框 2">
+<rect x="170.93" y="423.23" width="100.93" height="56.56" fill="none" stroke="none"/>
+</g>
+</g>
+<g id="shape-56" data-name="组合 55">
+<g id="shape-57" data-name="组合 56">
+<g id="shape-88" data-name="组合 87">
+<g id="shape-90" data-name="椭圆 89">
+<ellipse cx="139.27" cy="203.96" rx="9.13" ry="9.13" fill="#ACCBF9" stroke-width="2" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+<g id="shape-91" data-name="椭圆 90">
+<ellipse cx="102.33" cy="203.96" rx="9.13" ry="9.13" fill="#ACCBF9" stroke-width="2" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+</g>
+<g id="shape-89" data-name="圆角矩形 21">
+<rect x="99.2" y="200.02" width="41.6" height="7.93" rx="3.97" ry="3.97" fill="#7F8FA9" stroke-width="2" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+</g>
+<g id="shape-58" data-name="组合 57">
+<g id="shape-84" data-name="组合 83">
+<g id="shape-86" data-name="椭圆 85">
+<ellipse cx="139.27" cy="264.22" rx="9.13" ry="9.13" fill="#ACCBF9" stroke-width="2" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+<g id="shape-87" data-name="椭圆 86">
+<ellipse cx="102.33" cy="264.22" rx="9.13" ry="9.13" fill="#ACCBF9" stroke-width="2" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+</g>
+<g id="shape-85" data-name="圆角矩形 34">
+<rect x="99.2" y="260.29" width="41.6" height="7.93" rx="3.97" ry="3.97" fill="#7F8FA9" stroke-width="2" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+</g>
+<g id="shape-59" data-name="组合 58">
+<g id="shape-80" data-name="组合 79">
+<g id="shape-82" data-name="椭圆 81">
+<ellipse cx="139.27" cy="324.49" rx="9.13" ry="9.13" fill="#ACCBF9" stroke-width="2" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+<g id="shape-83" data-name="椭圆 82">
+<ellipse cx="102.33" cy="324.49" rx="9.13" ry="9.13" fill="#ACCBF9" stroke-width="2" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+</g>
+<g id="shape-81" data-name="圆角矩形 39">
+<rect x="99.2" y="320.56" width="41.6" height="7.93" rx="3.97" ry="3.97" fill="#7F8FA9" stroke-width="2" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+</g>
+<g id="shape-60" data-name="组合 59">
+<g id="shape-76" data-name="组合 75">
+<g id="shape-78" data-name="椭圆 77">
+<ellipse cx="139.27" cy="384.76" rx="9.13" ry="9.13" fill="#ACCBF9" stroke-width="2" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+<g id="shape-79" data-name="椭圆 78">
+<ellipse cx="102.33" cy="384.76" rx="9.13" ry="9.13" fill="#ACCBF9" stroke-width="2" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+</g>
+<g id="shape-77" data-name="圆角矩形 44">
+<rect x="99.2" y="380.82" width="41.6" height="7.93" rx="3.97" ry="3.97" fill="#7F8FA9" stroke-width="2" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+</g>
+<g id="shape-61" data-name="组合 60">
+<g id="shape-72" data-name="组合 71">
+<g id="shape-74" data-name="椭圆 73">
+<ellipse cx="139.27" cy="445.02" rx="9.13" ry="9.13" fill="#ACCBF9" stroke-width="2" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+<g id="shape-75" data-name="椭圆 74">
+<ellipse cx="102.33" cy="445.02" rx="9.13" ry="9.13" fill="#ACCBF9" stroke-width="2" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+</g>
+<g id="shape-73" data-name="圆角矩形 49">
+<rect x="99.2" y="441.09" width="41.6" height="7.93" rx="3.97" ry="3.97" fill="#7F8FA9" stroke-width="2" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+</g>
+<g id="shape-62" data-name="组合 61">
+<g id="shape-68" data-name="组合 67">
+<g id="shape-70" data-name="椭圆 69">
+<ellipse cx="139.27" cy="505.29" rx="9.13" ry="9.13" fill="#ACCBF9" stroke-width="2" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+<g id="shape-71" data-name="椭圆 70">
+<ellipse cx="102.33" cy="505.29" rx="9.13" ry="9.13" fill="#ACCBF9" stroke-width="2" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+</g>
+<g id="shape-69" data-name="圆角矩形 54">
+<rect x="99.2" y="501.36" width="41.6" height="7.93" rx="3.97" ry="3.97" fill="#7F8FA9" stroke-width="2" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+</g>
+<g id="shape-63" data-name="组合 62">
+<g id="shape-64" data-name="组合 63">
+<g id="shape-66" data-name="椭圆 65">
+<ellipse cx="139.27" cy="565.56" rx="9.13" ry="9.13" fill="#ACCBF9" stroke-width="2" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+<g id="shape-67" data-name="椭圆 66">
+<ellipse cx="102.33" cy="565.56" rx="9.13" ry="9.13" fill="#ACCBF9" stroke-width="2" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+</g>
+<g id="shape-65" data-name="圆角矩形 59">
+<rect x="99.2" y="561.62" width="41.6" height="7.93" rx="3.97" ry="3.97" fill="#7F8FA9" stroke-width="2" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+</g>
+</g>
+<g id="shape-92" data-name="文本框 11">
+<rect x="283.33" y="215.44" width="870.47" height="74.14" fill="none"/>
+<text x="292.93" y="238.37" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Regular&quot;, &quot;Open Sans Light&quot;, sans-serif" font-size="21.33" fill="#000000"><tspan fill="#000000" font-size="21.33">单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言</tspan><tspan x="292.93" dy="27.73" fill="#000000" font-size="21.33">简意赅的阐述观点；根据需要可酌情增减文字，以便观者可以准确理解您所传达的信息。</tspan></text>
+</g>
+<g id="shape-93" data-name="文本框 11">
+<rect x="283.33" y="347.72" width="870.47" height="74.14" fill="none"/>
+<text x="292.93" y="370.65" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Regular&quot;, &quot;Open Sans Light&quot;, sans-serif" font-size="21.33" fill="#000000"><tspan fill="#000000" font-size="21.33">单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言</tspan><tspan x="292.93" dy="27.73" fill="#000000" font-size="21.33">简意赅的阐述观点；根据需要可酌情增减文字，以便观者可以准确理解您所传达的信息。</tspan></text>
+</g>
+<g id="shape-94" data-name="文本框 11">
+<rect x="283.33" y="480" width="870.47" height="74.14" fill="none"/>
+<text x="292.93" y="502.93" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Regular&quot;, &quot;Open Sans Light&quot;, sans-serif" font-size="21.33" fill="#000000"><tspan fill="#000000" font-size="21.33">单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言</tspan><tspan x="292.93" dy="27.73" fill="#000000" font-size="21.33">简意赅的阐述观点；根据需要可酌情增减文字，以便观者可以准确理解您所传达的信息。</tspan></text>
+</g>
+<g id="shape-95" data-name="直接连接符 94">
+<line x1="294.4" y1="318.65" x2="1129.6" y2="318.65" fill="none" stroke-width="2" stroke-linecap="butt" stroke="#4A66AC" stroke-linejoin="miter"/>
+</g>
+<g id="shape-96" data-name="直接连接符 95">
+<line x1="294.4" y1="450.93" x2="1129.6" y2="450.93" fill="none" stroke-width="2" stroke-linecap="butt" stroke="#4A66AC" stroke-linejoin="miter"/>
+</g>
+<g id="shape-2" data-name="文本框 1">
+<rect x="448.36" y="72.73" width="383.28" height="54.93" fill="none"/>
+<text x="640" y="109.27" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Regular&quot;, sans-serif" font-size="37.33" fill="#26476A" font-weight="bold"><tspan fill="#26476A" font-size="37.33" font-weight="bold">在这里输入你的标题</tspan></text>
+</g></svg>

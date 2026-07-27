@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720"><defs><radialGradient id="ggrad1" cx="0.5" cy="0.5" r="0.5"><stop offset="0.48" stop-color="#9B2D1F"/><stop offset="0.04" stop-color="#FFFFFF"/><stop offset="0.99" stop-color="#D34817"/></radialGradient><radialGradient id="ggrad2" cx="0.5" cy="0.5" r="0.5"><stop offset="0.48" stop-color="#9B2D1F"/><stop offset="0.04" stop-color="#FFFFFF"/><stop offset="0.99" stop-color="#D34817"/></radialGradient><radialGradient id="ggrad3" cx="0.5" cy="0.5" r="0.5"><stop offset="0.48" stop-color="#9B2D1F"/><stop offset="0.04" stop-color="#FFFFFF"/><stop offset="0.99" stop-color="#D34817"/></radialGradient><radialGradient id="ggrad4" cx="0.5" cy="0.5" r="0.5"><stop offset="0.48" stop-color="#9B2D1F"/><stop offset="0.04" stop-color="#FFFFFF"/><stop offset="0.99" stop-color="#D34817"/></radialGradient><radialGradient id="ggrad5" cx="0.5" cy="0.5" r="0.5"><stop offset="0.58" stop-color="#9B2D1F" stop-opacity="0.5"/><stop offset="0.04" stop-color="#A28E6A" stop-opacity="0"/><stop offset="1" stop-color="#D34817" stop-opacity="0"/></radialGradient></defs><rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+<g id="shape-2" data-name="组合 1">
+<g id="shape-3" data-name="组合 2">
+<g id="shape-9" data-name="文本框 8">
+<rect x="269.42" y="364.04" width="337" height="43.28" fill="none"/>
+<text x="269.42" y="394.41" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="35.73" fill="#000000" font-weight="bold" letter-spacing="0.67"><tspan fill="#000000" font-size="35.73" font-weight="bold" letter-spacing="0.67">请输入您的标题</tspan></text>
+</g>
+<g id="shape-10" data-name="文本框 9">
+<rect x="271.61" y="407.5" width="334.11" height="28.86" fill="none"/>
+<text x="271.61" y="427.73" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="23.8" fill="#808080" letter-spacing="1.33"><tspan fill="#808080" font-size="23.8" letter-spacing="1.33">Please enter your title</tspan></text>
+</g>
+</g>
+<g id="shape-4" data-name="组合 3">
+<g id="shape-5" data-name="组合 4">
+<g id="shape-7" data-name="椭圆 6">
+<ellipse cx="206.11" cy="398.28" rx="51.79" ry="51.79" fill="url(#ggrad1)" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-8" data-name="椭圆 7">
+<ellipse cx="206.11" cy="398.28" rx="51.79" ry="51.79" fill="#D34817" stroke="none" stroke-width="1"/>
+</g>
+</g>
+<g id="shape-6" data-name="文本框 5">
+<rect x="178.65" y="370.36" width="54.93" height="55.84" fill="none"/>
+<text x="206.11" y="409.52" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="46.07" fill="#FFFFFF"><tspan fill="#FFFFFF" font-size="46.07">01</tspan></text>
+</g>
+</g>
+</g>
+<g id="shape-11" data-name="组合 10">
+<g id="shape-12" data-name="组合 11">
+<g id="shape-18" data-name="文本框 17">
+<rect x="788.67" y="364.04" width="337" height="43.28" fill="none"/>
+<text x="788.67" y="394.41" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="35.73" fill="#000000" font-weight="bold" letter-spacing="0.67"><tspan fill="#000000" font-size="35.73" font-weight="bold" letter-spacing="0.67">请输入您的标题</tspan></text>
+</g>
+<g id="shape-19" data-name="文本框 18">
+<rect x="790.86" y="407.5" width="334.11" height="28.86" fill="none"/>
+<text x="790.86" y="427.73" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="23.8" fill="#808080" letter-spacing="1.33"><tspan fill="#808080" font-size="23.8" letter-spacing="1.33">Please enter your title</tspan></text>
+</g>
+</g>
+<g id="shape-13" data-name="组合 12">
+<g id="shape-14" data-name="组合 13">
+<g id="shape-16" data-name="椭圆 15">
+<ellipse cx="725.37" cy="398.28" rx="51.79" ry="51.79" fill="url(#ggrad2)" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-17" data-name="椭圆 16">
+<ellipse cx="725.37" cy="398.28" rx="51.79" ry="51.79" fill="#D34817" stroke="#69240C" stroke-width="1"/>
+</g>
+</g>
+<g id="shape-15" data-name="文本框 14">
+<rect x="697.9" y="370.36" width="54.93" height="55.84" fill="none"/>
+<text x="725.37" y="409.52" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="46.07" fill="#FFFFFF"><tspan fill="#FFFFFF" font-size="46.07">02</tspan></text>
+</g>
+</g>
+</g>
+<g id="shape-20" data-name="组合 19">
+<g id="shape-21" data-name="组合 20">
+<g id="shape-27" data-name="文本框 26">
+<rect x="269.42" y="498.34" width="337" height="43.28" fill="none"/>
+<text x="269.42" y="528.72" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="35.73" fill="#000000" font-weight="bold" letter-spacing="0.67"><tspan fill="#000000" font-size="35.73" font-weight="bold" letter-spacing="0.67">请输入您的标题</tspan></text>
+</g>
+<g id="shape-28" data-name="文本框 27">
+<rect x="271.61" y="541.81" width="334.11" height="28.86" fill="none"/>
+<text x="271.61" y="562.04" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="23.8" fill="#808080" letter-spacing="1.33"><tspan fill="#808080" font-size="23.8" letter-spacing="1.33">Please enter your title</tspan></text>
+</g>
+</g>
+<g id="shape-22" data-name="组合 21">
+<g id="shape-23" data-name="组合 22">
+<g id="shape-25" data-name="椭圆 24">
+<ellipse cx="206.11" cy="532.58" rx="51.79" ry="51.79" fill="url(#ggrad3)" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-26" data-name="椭圆 25">
+<ellipse cx="206.11" cy="532.58" rx="51.79" ry="51.79" fill="#D34817" stroke="#69240C" stroke-width="1"/>
+</g>
+</g>
+<g id="shape-24" data-name="文本框 23">
+<rect x="178.65" y="504.67" width="54.93" height="55.84" fill="none"/>
+<text x="206.11" y="543.82" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="46.07" fill="#FFFFFF"><tspan fill="#FFFFFF" font-size="46.07">03</tspan></text>
+</g>
+</g>
+</g>
+<g id="shape-29" data-name="组合 28">
+<g id="shape-30" data-name="组合 29">
+<g id="shape-36" data-name="文本框 35">
+<rect x="788.67" y="498.34" width="337" height="43.28" fill="none"/>
+<text x="788.67" y="528.72" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="35.73" fill="#000000" font-weight="bold" letter-spacing="0.67"><tspan fill="#000000" font-size="35.73" font-weight="bold" letter-spacing="0.67">请输入您的标题</tspan></text>
+</g>
+<g id="shape-37" data-name="文本框 36">
+<rect x="790.86" y="541.81" width="334.11" height="28.86" fill="none"/>
+<text x="790.86" y="562.04" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="23.8" fill="#808080" letter-spacing="1.33"><tspan fill="#808080" font-size="23.8" letter-spacing="1.33">Please enter your title</tspan></text>
+</g>
+</g>
+<g id="shape-31" data-name="组合 30">
+<g id="shape-32" data-name="组合 31">
+<g id="shape-34" data-name="椭圆 33">
+<ellipse cx="725.37" cy="532.58" rx="51.79" ry="51.79" fill="url(#ggrad4)" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-35" data-name="椭圆 34">
+<ellipse cx="725.37" cy="532.58" rx="51.79" ry="51.79" fill="#D34817" stroke="#69240C" stroke-width="1"/>
+</g>
+</g>
+<g id="shape-33" data-name="文本框 32">
+<rect x="697.9" y="504.67" width="54.93" height="55.84" fill="none"/>
+<text x="725.37" y="543.82" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="46.07" fill="#FFFFFF"><tspan fill="#FFFFFF" font-size="46.07">04</tspan></text>
+</g>
+</g>
+</g>
+<g id="shape-38" data-name="任意多边形: 形状 37">
+<path d="M 0 9.84 L 1280 9.84 L 1280 98.75 L 1268.31 107.37 C 1102.36 224.05 881.92 295.16 640 295.16 C 398.09 295.16 177.64 224.05 11.69 107.37 L 0 98.75 Z" fill="url(#ggrad5)" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-39" data-name="任意多边形: 形状 38">
+<path d="M 0 0.06 L 1280 0.06 L 1280 88.97 L 1268.31 97.59 C 1102.36 214.26 881.92 285.38 640 285.38 C 398.09 285.38 177.64 214.26 11.69 97.59 L 0 88.97 Z" fill="#D34817" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-40" data-name="组合 39">
+<g id="shape-41" data-name="文本框 40">
+<rect x="527.13" y="81.33" width="220.3" height="116.33" fill="none"/>
+<text x="527.13" y="162.93" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="96" fill="#000000"><tspan fill="#000000" font-size="96">目录</tspan></text>
+</g>
+<g id="shape-42" data-name="文本框 41">
+<rect x="532.58" y="85.7" width="220.3" height="116.33" fill="none"/>
+<text x="532.58" y="167.3" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="96" fill="#000000"><tspan fill="#000000" font-size="96">目录</tspan></text>
+</g>
+</g>
+<g id="shape-43" data-name="文本框 42">
+<rect x="538.6" y="192.59" width="202.79" height="45.24" fill="none"/>
+<text x="538.6" y="224.32" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="37.33" fill="#FFFFFF" fill-opacity="0.8"><tspan fill="#FFFFFF" font-size="37.33" fill-opacity="0.8">CONTENTS</tspan></text>
+</g></svg>

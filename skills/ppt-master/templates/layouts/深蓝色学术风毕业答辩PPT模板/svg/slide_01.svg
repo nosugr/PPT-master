@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720"><defs><filter id="fx1" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="0" stdDeviation="3.33" flood-color="#000000" flood-opacity="0.4"/></filter></defs><rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+<g id="layout-shape-2" data-name="直角三角形 1" transform="rotate(270 998.86 176.3) translate(998.86 176.3) scale(-1 1) translate(-998.86 -176.3)">
+<polygon points="822.56,-104.85 822.56,457.44 1175.15,457.44" fill="#083B5E" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-3" data-name="直角三角形 2" transform="rotate(90 281.14 546.36) translate(281.14 546.36) scale(-1 1) translate(-281.14 -546.36)">
+<polygon points="104.85,265.22 104.85,827.51 457.44,827.51" fill="#083B5E" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-4" data-name="圆角矩形 6">
+<rect x="55.3" y="50" width="1167.92" height="617.74" rx="31.68" ry="31.68" fill="#FFFFFF" stroke="none" stroke-width="1" filter="url(#fx1)"/>
+</g>
+<g id="layout-shape-5" data-name="椭圆 4">
+<ellipse cx="1094.07" cy="80.65" rx="7.45" ry="7.45" fill="#083B5E" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-6" data-name="椭圆 5">
+<ellipse cx="1122.46" cy="80.65" rx="7.45" ry="7.45" fill="#083B5E" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-7" data-name="椭圆 6">
+<ellipse cx="1150.84" cy="80.65" rx="7.45" ry="7.45" fill="#083B5E" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-8" data-name="椭圆 7">
+<ellipse cx="110.98" cy="631.96" rx="7.45" ry="7.45" fill="#083B5E" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-9" data-name="椭圆 8">
+<ellipse cx="139.36" cy="631.96" rx="7.45" ry="7.45" fill="#083B5E" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-10" data-name="椭圆 9">
+<ellipse cx="167.75" cy="631.96" rx="7.45" ry="7.45" fill="#083B5E" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-11" data-name="组合 10">
+<g id="layout-shape-12" data-name="图片 11">
+<image href="../assets/image1.png" x="607.75" y="134.57" width="59.35" height="40.07" preserveAspectRatio="none"/>
+</g>
+<g id="layout-shape-13" data-name="组合 12">
+<g id="layout-shape-14" data-name="Rectangle 40">
+<rect x="684.01" y="168.52" width="4.26" height="3.86" fill="#3A5569" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+<g id="layout-shape-15" data-name="Rectangle 43">
+<rect x="684.01" y="137.86" width="4.26" height="30.66" fill="#F05F50" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+<g id="layout-shape-16" data-name="Freeform 44">
+<path d="M 637.26 156.34 L 569.4 136.62 L 637.26 116.73 L 705.13 136.62 L 637.26 156.34 Z" fill="#647A8A" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+<g id="layout-shape-17" data-name="Oval 45">
+<ellipse cx="637.42" cy="133.9" rx="4.26" ry="1.93" fill="#3A5569" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+</g>
+</g>
+<g id="layout-shape-20" data-name="直接连接符 19" transform="translate(337.73 419.59) scale(-1 1) translate(-337.73 -419.59)">
+<line x1="262.67" y1="419.59" x2="412.8" y2="419.59" stroke-width="2" stroke="#26476A" fill="#26476A"/>
+</g>
+<g id="layout-shape-21" data-name="直接连接符 20" transform="translate(944.83 419.59) scale(-1 1) translate(-944.83 -419.59)">
+<line x1="869.76" y1="419.59" x2="1019.89" y2="419.59" stroke-width="2" stroke="#26476A" fill="#26476A"/>
+</g>
+<g id="layout-shape-31" data-name="文本框 30">
+<rect x="97.11" y="85.53" width="105.96" height="48.47" fill="none"/>
+<text x="106.71" y="117.53" text-anchor="start" xml:space="preserve" font-family="sans-serif" font-size="32" fill="#000000"><tspan fill="#000000" font-size="32">LOGO</tspan></text>
+</g>
+<g id="shape-32" data-name="文本框 31">
+<rect x="280" y="274.63" width="720" height="116.27" fill="none"/>
+<text x="640" y="356.23" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Regular&quot;, sans-serif" font-size="96" fill="#26476A"><tspan fill="#26476A" font-size="96">毕业答辩</tspan><tspan fill="#26476A" font-size="96">PPT</tspan><tspan fill="#26476A" font-size="96">模板</tspan></text>
+</g>
+<g id="shape-33" data-name="文本框 32">
+<rect x="543.06" y="399.59" width="193.87" height="38.78" fill="none"/>
+<text x="640" y="426.79" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Regular&quot;, sans-serif" font-size="32" fill="#26476A"><tspan fill="#26476A" font-size="32">深蓝色学术风</tspan></text>
+</g>
+<g id="shape-34" data-name="组合 33">
+<g id="shape-35" data-name="矩形 34">
+<rect x="454.77" y="487.32" width="17.28" height="17.28" fill="#26476A" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-36" data-name="文本框 35">
+<rect x="487.64" y="483.99" width="138.67" height="25.8" fill="none"/>
+<text x="487.64" y="502.13" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Regular&quot;, sans-serif" font-size="21.33" fill="#26476A"><tspan fill="#26476A" font-size="21.33">指导老师：</tspan><tspan fill="#26476A" font-size="21.33">xxx</tspan></text>
+</g>
+</g>
+<g id="shape-37" data-name="组合 36">
+<g id="shape-38" data-name="矩形 37">
+<rect x="691.89" y="487.32" width="17.28" height="17.28" fill="#26476A" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-39" data-name="文本框 38">
+<rect x="724.76" y="483.99" width="117.33" height="25.8" fill="none"/>
+<text x="724.76" y="502.13" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Regular&quot;, sans-serif" font-size="21.33" fill="#26476A"><tspan fill="#26476A" font-size="21.33">汇报人：</tspan><tspan fill="#26476A" font-size="21.33">xxx</tspan></text>
+</g>
+</g></svg>

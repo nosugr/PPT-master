@@ -1,0 +1,1 @@
+手掌检测使用 Google 的 MediaPipe Hands 模型，可以实时检测 21 个手部关键点。相比早期的 HSV 颜色分割方案，MediaPipe 对光照变化和肤色差异有更好的鲁棒性。

@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720"><defs><radialGradient id="ggrad1" cx="0.5" cy="0.5" r="0.5"><stop offset="0.48" stop-color="#9B2D1F"/><stop offset="0.04" stop-color="#FFFFFF"/><stop offset="0.99" stop-color="#D34817"/></radialGradient></defs><rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+<g id="layout-shape-4" data-name="椭圆 3">
+<ellipse cx="-3.78" cy="0" rx="74.12" ry="74.12" fill="url(#ggrad1)" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-6" data-name="矩形 5">
+<rect x="0" y="671.28" width="1284.68" height="48.72" fill="#D34817" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-2" data-name="文本框 1">
+<rect x="1029.41" y="47.58" width="173.04" height="71.09" fill="none"/>
+<text x="1115.93" y="97.45" text-anchor="middle" xml:space="preserve" font-family="sans-serif" font-size="58.67" fill="#9B2D1F" font-weight="bold"><tspan fill="#9B2D1F" font-size="58.67" font-weight="bold">LOGO</tspan></text>
+</g>
+<g id="layout-shape-10" data-name="直接连接符 9">
+<line x1="70.33" y1="108" x2="990.85" y2="108" fill="#D34817" stroke="#D34817" stroke-width="1"/>
+</g>
+<g id="shape-2" data-name="文本框 1">
+<rect x="69.33" y="48.67" width="265.57" height="51.7" fill="none"/>
+<text x="69.33" y="84.93" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="42.67" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="42.67" font-weight="bold">点击添加标题</tspan></text>
+</g>
+<g id="shape-3" data-name="文本框 2">
+<rect x="338.36" y="68.66" width="171.98" height="29.08" fill="none"/>
+<text x="338.36" y="89.06" text-anchor="start" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="24" fill="#A6A6A6"><tspan fill="#A6A6A6" font-size="24">输入您的副标题</tspan></text>
+</g>
+<g id="shape-4" data-name="文本框 3">
+<rect x="532.29" y="143.76" width="215.42" height="51.7" fill="none"/>
+<text x="640" y="180.02" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="42.67" fill="#D34817"><tspan fill="#D34817" font-size="42.67">关键词标题</tspan></text>
+</g>
+<g id="shape-5" data-name="文本框 4">
+<rect x="238.59" y="203.51" width="802.82" height="23.13" fill="none"/>
+<text x="640" y="217.11" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="16" fill="#404040"><tspan fill="#404040" font-size="16">单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点；</tspan></text>
+</g>
+<g id="shape-6" data-name="矩形: 圆角 5">
+<rect x="86.56" y="263.64" width="259.2" height="341.76" rx="15.36" ry="15.36" fill="#FFFFFF" stroke-width="1.667" stroke="#D34817"/>
+</g>
+<g id="shape-7" data-name="矩形: 圆角 6">
+<rect x="178.36" y="298.6" width="75.59" height="75.59" rx="10.24" ry="10.24" fill="#FFFFFF" stroke-width="1.667" stroke="#D34817"/>
+</g>
+<g id="shape-8" data-name="文本框 7">
+<rect x="135.38" y="395.42" width="161.56" height="38.78" fill="none"/>
+<text x="216.16" y="422.62" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="32" fill="#D34817"><tspan fill="#D34817" font-size="32">关键词标题</tspan></text>
+</g>
+<g id="shape-10" data-name="直接连接符 9">
+<line x1="105.74" y1="459.91" x2="325.74" y2="459.91" stroke-width="1.667" stroke="#D34817" fill="#D34817"/>
+</g>
+<g id="shape-11" data-name="矩形 10">
+<rect x="323.74" y="455.41" width="8" height="8" fill="#D34817" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-12" data-name="矩形 11">
+<rect x="101.74" y="455.41" width="8" height="8" fill="#D34817" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-13" data-name="文本框 12">
+<rect x="101.36" y="481.14" width="230.38" height="74" fill="none"/>
+<text x="216.55" y="494.74" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="16" fill="#404040"><tspan fill="#404040" font-size="16">单击此处输入你的正文，文字是</tspan><tspan x="216.55" dy="20.8" fill="#404040" font-size="16">您思想的提炼，请尽量言简意赅</tspan><tspan x="216.55" dy="20.8" fill="#404040" font-size="16">的阐述观点</tspan></text>
+</g>
+<g id="shape-14" data-name="iconfont-1191-801535">
+<path d="M 216.55 312.59 C 206.19 312.59 197.78 320.99 197.78 331.35 C 197.78 341.72 212.49 357.58 212.49 357.58 C 214.73 360.19 218.4 360.21 220.62 357.57 C 220.62 357.57 235.32 341.72 235.32 331.35 C 235.32 320.99 226.91 312.59 216.55 312.59 L 216.55 312.59 L 216.55 312.59 L 216.55 312.59 Z M 216.55 339.43 C 211.75 339.43 207.87 335.55 207.87 330.75 C 207.87 325.96 211.75 322.07 216.55 322.07 C 221.35 322.07 225.23 325.96 225.23 330.75 C 225.23 335.55 221.35 339.43 216.55 339.43 L 216.55 339.43 Z M 216.55 339.43 Z" fill="#D34817" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-15" data-name="矩形: 圆角 14">
+<rect x="369.12" y="263.64" width="259.2" height="341.76" rx="15.36" ry="15.36" fill="#FFFFFF" stroke-width="1.667" stroke="#D34817"/>
+</g>
+<g id="shape-16" data-name="矩形: 圆角 15">
+<rect x="460.92" y="298.6" width="75.59" height="75.59" rx="10.24" ry="10.24" fill="#FFFFFF" stroke-width="1.667" stroke="#D34817"/>
+</g>
+<g id="shape-17" data-name="文本框 16">
+<rect x="417.94" y="395.42" width="161.56" height="38.78" fill="none"/>
+<text x="498.72" y="422.62" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="32" fill="#D34817"><tspan fill="#D34817" font-size="32">关键词标题</tspan></text>
+</g>
+<g id="shape-19" data-name="直接连接符 18">
+<line x1="388.3" y1="459.91" x2="608.3" y2="459.91" stroke-width="1.667" stroke="#D34817" fill="#D34817"/>
+</g>
+<g id="shape-20" data-name="矩形 19">
+<rect x="606.3" y="455.41" width="8" height="8" fill="#D34817" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-21" data-name="矩形 20">
+<rect x="384.3" y="455.41" width="8" height="8" fill="#D34817" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-22" data-name="文本框 21">
+<rect x="383.92" y="481.14" width="230.38" height="74" fill="none"/>
+<text x="499.11" y="494.74" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="16" fill="#404040"><tspan fill="#404040" font-size="16">单击此处输入你的正文，文字是</tspan><tspan x="499.11" dy="20.8" fill="#404040" font-size="16">您思想的提炼，请尽量言简意赅</tspan><tspan x="499.11" dy="20.8" fill="#404040" font-size="16">的阐述观点</tspan></text>
+</g>
+<g id="shape-23" data-name="iconfont-1191-801535">
+<path d="M 486.11 326.09 C 486.11 318.92 491.94 313.09 499.11 313.09 C 506.28 313.09 512.11 318.92 512.11 326.09 C 512.11 333.26 506.28 339.09 499.11 339.09 C 491.94 339.09 486.11 333.26 486.11 326.09 Z M 475.3 359.64 C 475.58 356.5 477.09 345.36 488.69 339.39 C 491.56 341.65 495.18 343.01 499.11 343.01 C 503.06 343.01 506.7 341.64 509.58 339.36 C 521.23 345.3 522.64 356.36 522.92 359.64 C 522.85 359.71 475.37 359.65 475.3 359.64 Z M 475.3 359.64 Z" fill="#D34817" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-24" data-name="矩形: 圆角 23">
+<rect x="651.68" y="263.64" width="259.2" height="341.76" rx="15.36" ry="15.36" fill="#FFFFFF" stroke-width="1.667" stroke="#D34817"/>
+</g>
+<g id="shape-25" data-name="矩形: 圆角 24">
+<rect x="743.48" y="298.6" width="75.59" height="75.59" rx="10.24" ry="10.24" fill="#FFFFFF" stroke-width="1.667" stroke="#D34817"/>
+</g>
+<g id="shape-26" data-name="文本框 25">
+<rect x="700.5" y="395.42" width="161.56" height="38.78" fill="none"/>
+<text x="781.28" y="422.62" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="32" fill="#D34817"><tspan fill="#D34817" font-size="32">关键词标题</tspan></text>
+</g>
+<g id="shape-28" data-name="直接连接符 27">
+<line x1="670.86" y1="459.91" x2="890.86" y2="459.91" stroke-width="1.667" stroke="#D34817" fill="#D34817"/>
+</g>
+<g id="shape-29" data-name="矩形 28">
+<rect x="888.86" y="455.41" width="8" height="8" fill="#D34817" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-30" data-name="矩形 29">
+<rect x="666.86" y="455.41" width="8" height="8" fill="#D34817" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-31" data-name="文本框 30">
+<rect x="666.48" y="481.14" width="230.38" height="74" fill="none"/>
+<text x="781.67" y="494.74" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="16" fill="#404040"><tspan fill="#404040" font-size="16">单击此处输入你的正文，文字是</tspan><tspan x="781.67" dy="20.8" fill="#404040" font-size="16">您思想的提炼，请尽量言简意赅</tspan><tspan x="781.67" dy="20.8" fill="#404040" font-size="16">的阐述观点</tspan></text>
+</g>
+<g id="shape-32" data-name="iconfont-1191-801535">
+<path d="M 772.91 338.59 L 772.91 338.56 L 790.26 338.57 C 790.29 338.57 790.3 338.56 790.33 338.56 C 792.12 338.56 793.58 340.02 793.58 341.81 C 793.58 342.49 793.32 343.09 792.95 343.61 L 793.01 343.65 L 792.96 343.75 L 792.98 343.76 L 784.68 358.13 C 784.61 358.3 784.51 358.44 784.42 358.59 L 784.32 358.75 L 784.32 358.74 C 783.73 359.6 782.79 360.21 781.67 360.21 C 780.41 360.21 779.38 359.46 778.85 358.41 L 770.33 343.65 L 770.4 343.6 C 770.03 343.09 769.77 342.49 769.77 341.81 C 769.76 340.05 771.16 338.64 772.91 338.59 L 772.91 338.59 L 772.91 338.59 Z M 781.67 354.64 L 788.45 342.89 L 774.89 342.89 L 781.67 354.64 Z M 790.44 334.21 L 790.44 334.23 L 773.13 334.23 L 773.13 334.21 C 773.09 334.21 773.05 334.23 773.01 334.23 C 771.22 334.23 769.76 332.78 769.76 330.99 C 769.76 330.26 770.05 329.62 770.45 329.08 L 770.37 329.03 L 778.66 314.66 C 778.73 314.49 778.84 314.35 778.93 314.2 L 779.02 314.05 L 779.03 314.05 C 779.61 313.19 780.55 312.59 781.67 312.59 C 783.1 312.59 784.28 313.53 784.71 314.82 L 792.84 328.89 L 792.79 328.93 C 793.26 329.49 793.57 330.19 793.57 330.99 C 793.58 332.74 792.18 334.15 790.44 334.21 L 790.44 334.21 L 790.44 334.21 Z M 790.44 334.21 Z" fill="#D34817" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-33" data-name="矩形: 圆角 32">
+<rect x="934.24" y="263.64" width="259.2" height="341.76" rx="15.36" ry="15.36" fill="#FFFFFF" stroke-width="1.667" stroke="#D34817"/>
+</g>
+<g id="shape-34" data-name="矩形: 圆角 33">
+<rect x="1026.04" y="298.6" width="75.59" height="75.59" rx="10.24" ry="10.24" fill="#FFFFFF" stroke-width="1.667" stroke="#D34817"/>
+</g>
+<g id="shape-35" data-name="文本框 34">
+<rect x="983.06" y="395.42" width="161.56" height="38.78" fill="none"/>
+<text x="1063.84" y="422.62" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="32" fill="#D34817"><tspan fill="#D34817" font-size="32">关键词标题</tspan></text>
+</g>
+<g id="shape-37" data-name="直接连接符 36">
+<line x1="953.42" y1="459.91" x2="1173.42" y2="459.91" stroke-width="1.667" stroke="#D34817" fill="#D34817"/>
+</g>
+<g id="shape-38" data-name="矩形 37">
+<rect x="1171.42" y="455.41" width="8" height="8" fill="#D34817" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-39" data-name="矩形 38">
+<rect x="949.42" y="455.41" width="8" height="8" fill="#D34817" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-40" data-name="文本框 39">
+<rect x="949.04" y="481.14" width="230.38" height="74" fill="none"/>
+<text x="1064.23" y="494.74" text-anchor="middle" xml:space="preserve" font-family="&quot;思源黑体 CN Medium&quot;, sans-serif" font-size="16" fill="#404040"><tspan fill="#404040" font-size="16">单击此处输入你的正文，文字是</tspan><tspan x="1064.23" dy="20.8" fill="#404040" font-size="16">您思想的提炼，请尽量言简意赅</tspan><tspan x="1064.23" dy="20.8" fill="#404040" font-size="16">的阐述观点</tspan></text>
+</g>
+<g id="shape-41" data-name="iconfont-1191-801535">
+<path d="M 1079.44 360.21 L 1079.44 339.24 C 1079.44 336.35 1077.17 334 1074.37 334 L 1054.09 334 C 1051.29 334 1049.02 336.35 1049.02 339.24 L 1049.02 360.21 L 1041.41 360.21 L 1041.41 326.14 L 1064.23 312.59 L 1087.05 326.14 L 1087.05 360.21 L 1079.44 360.21 Z M 1074.37 344.48 L 1054.09 344.48 L 1054.09 339.24 L 1074.37 339.24 L 1074.37 344.48 Z M 1074.37 352.35 L 1054.09 352.35 L 1054.09 347.11 L 1074.37 347.11 L 1074.37 352.35 Z M 1074.37 360.21 L 1054.09 360.21 L 1054.09 354.97 L 1074.37 354.97 L 1074.37 360.21 Z M 1074.37 360.21 Z" fill="#D34817" stroke="none" stroke-width="1"/>
+</g></svg>

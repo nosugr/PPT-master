@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+<rect x="0" y="0" width="1280" height="720" fill="none"/>
+<!-- Corner triangles -->
+<g id="corner-tl" transform="rotate(90 135.7 135.63)">
+<polygon points="0.07,-0.07 0.07,271.33 271.33,271.33" fill="#324274" stroke="none"/>
+</g>
+<g id="corner-bl">
+<polygon points="0.13,448.6 0.13,720 271.4,720" fill="#324274" stroke="none"/>
+</g>
+<g id="corner-tr" transform="rotate(180 1144.37 135.57)">
+<polygon points="1008.73,-0.13 1008.73,271.27 1280,271.27" fill="#324274" stroke="none"/>
+</g>
+<g id="corner-br" transform="rotate(270 1144.3 584.37)">
+<polygon points="1008.67,448.67 1008.67,720.07 1279.93,720.07" fill="#324274" stroke="none"/>
+</g>
+<!-- Inner frame -->
+<rect x="25.8" y="23.4" width="1228.4" height="673.2" fill="#FFFFFF" stroke="#324274" stroke-width="1"/>
+<!-- Page header -->
+<text x="640" y="98.33" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="37.33" fill="#324274">{{PAGE_TITLE}}</text>
+<!-- Left flow nodes -->
+<ellipse cx="201.63" cy="274.93" rx="43.83" ry="44.4" fill="#324274" stroke="none"/>
+<rect x="376.27" y="254" width="134.4" height="41.87" fill="#324274" stroke="none"/>
+<text x="443.47" y="281.47" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="26.67" fill="#FFFFFF">{{NODE_01_TITLE}}</text>
+<line x1="232.6" y1="274.93" x2="358.87" y2="375.2" stroke="#324274" fill="none" stroke-width="1"/>
+<ellipse cx="201.63" cy="406.6" rx="43.83" ry="44.4" fill="#324274" stroke="none"/>
+<rect x="376.27" y="385.6" width="134.4" height="41.87" fill="#324274" stroke="none"/>
+<text x="443.47" y="413.07" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="26.67" fill="#FFFFFF">{{NODE_02_TITLE}}</text>
+<line x1="245.47" y1="406.53" x2="358.87" y2="406.6" stroke="#324274" fill="none" stroke-width="1"/>
+<ellipse cx="201.63" cy="538.07" rx="43.83" ry="44.4" fill="#324274" stroke="none"/>
+<rect x="376.27" y="517.2" width="134.4" height="41.87" fill="#324274" stroke="none"/>
+<text x="443.47" y="544.67" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="26.67" fill="#FFFFFF">{{NODE_03_TITLE}}</text>
+<line x1="232.6" y1="438" x2="358.87" y2="538.07" stroke="#324274" fill="none" stroke-width="1"/>
+<!-- Right content cards -->
+<rect x="569.13" y="234.73" width="543.53" height="80.73" rx="13.46" ry="13.46" fill="none" stroke="#324274" stroke-width="1"/>
+<text x="594.53" y="268.33" font-family="MiSans Normal, sans-serif" font-size="18.67" fill="#0D0D0D">{{CARD_01_TEXT}}</text>
+<rect x="569.13" y="366.13" width="543.53" height="80.73" rx="13.46" ry="13.46" fill="none" stroke="#324274" stroke-width="1"/>
+<text x="594.53" y="399.73" font-family="MiSans Normal, sans-serif" font-size="18.67" fill="#0D0D0D">{{CARD_02_TEXT}}</text>
+<rect x="569.13" y="497.53" width="543.53" height="80.73" rx="13.46" ry="13.46" fill="none" stroke="#324274" stroke-width="1"/>
+<text x="594.53" y="531.2" font-family="MiSans Normal, sans-serif" font-size="18.67" fill="#0D0D0D">{{CARD_03_TEXT}}</text>
+</svg>

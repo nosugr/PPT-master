@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+<rect x="0" y="0" width="1280" height="720" fill="none"/>
+<!-- Corner triangles -->
+<g id="corner-tl" transform="rotate(90 135.7 135.63)">
+<polygon points="0.07,-0.07 0.07,271.33 271.33,271.33" fill="#324274" stroke="none"/>
+</g>
+<g id="corner-bl">
+<polygon points="0.13,448.6 0.13,720 271.4,720" fill="#324274" stroke="none"/>
+</g>
+<g id="corner-tr" transform="rotate(180 1144.37 135.57)">
+<polygon points="1008.73,-0.13 1008.73,271.27 1280,271.27" fill="#324274" stroke="none"/>
+</g>
+<g id="corner-br" transform="rotate(270 1144.3 584.37)">
+<polygon points="1008.67,448.67 1008.67,720.07 1279.93,720.07" fill="#324274" stroke="none"/>
+</g>
+<!-- Inner frame -->
+<rect x="25.8" y="23.4" width="1228.4" height="673.2" fill="#FFFFFF" stroke="#324274" stroke-width="1"/>
+<!-- Page header -->
+<text x="640" y="98.33" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="37.33" fill="#324274">{{PAGE_TITLE}}</text>
+<!-- Left column -->
+<rect x="449" y="218.6" width="174.13" height="282.73" fill="none" stroke="#324274" stroke-width="1"/>
+<text x="447.1" y="326.33" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="32" fill="#0D0D0D">{{LEFT_TITLE}}</text>
+<text x="515.13" y="363.33" text-anchor="end" font-family="MiSans Normal, sans-serif" font-size="18.67" fill="#404040">{{LEFT_DESC}}</text>
+<!-- Center icon -->
+<ellipse cx="638.97" cy="360" rx="37.37" ry="37.93" fill="#324274" stroke="#FFFFFF" stroke-width="1"/>
+<!-- Right column -->
+<rect x="656.87" y="218.6" width="174.13" height="282.73" fill="none" stroke="#324274" stroke-width="1"/>
+<text x="835.23" y="326.33" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="32" fill="#0D0D0D">{{RIGHT_TITLE}}</text>
+<text x="770.27" y="363.33" font-family="MiSans Normal, sans-serif" font-size="18.67" fill="#404040">{{RIGHT_DESC}}</text>
+<!-- Bottom description -->
+<text x="640" y="577.67" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="18.67" fill="#0D0D0D">{{BOTTOM_DESC}}</text>
+</svg>

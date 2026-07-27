@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720">
+<rect x="0" y="0" width="1280" height="720" fill="none"/>
+<!-- Corner triangles -->
+<g id="corner-tl" transform="rotate(90 135.7 135.63)">
+<polygon points="0.07,-0.07 0.07,271.33 271.33,271.33" fill="#324274" stroke="none"/>
+</g>
+<g id="corner-bl">
+<polygon points="0.13,448.6 0.13,720 271.4,720" fill="#324274" stroke="none"/>
+</g>
+<g id="corner-tr" transform="rotate(180 1144.37 135.57)">
+<polygon points="1008.73,-0.13 1008.73,271.27 1280,271.27" fill="#324274" stroke="none"/>
+</g>
+<g id="corner-br" transform="rotate(270 1144.3 584.37)">
+<polygon points="1008.67,448.67 1008.67,720.07 1279.93,720.07" fill="#324274" stroke="none"/>
+</g>
+<!-- Inner frame -->
+<rect x="25.8" y="23.4" width="1228.4" height="673.2" fill="#FFFFFF" stroke="#324274" stroke-width="1"/>
+<!-- Page header -->
+<text x="640" y="98.33" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="37.33" fill="#324274">{{PAGE_TITLE}}</text>
+<!-- Left card -->
+<rect x="156" y="252.87" width="285.2" height="302.87" rx="47.53" ry="47.53" fill="none" stroke="#324274" stroke-width="1"/>
+<text x="298.63" y="326.6" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="32" fill="#0D0D0D">{{LEFT_TITLE}}</text>
+<line x1="275.27" y1="366.33" x2="322" y2="366.33" stroke="#324274" stroke-width="1"/>
+<text x="298.63" y="410.4" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="18.67" fill="#0D0D0D">{{LEFT_DESC}}</text>
+<!-- Right top -->
+<ellipse cx="549.3" cy="233.27" rx="37.43" ry="38" fill="#324274" stroke="none"/>
+<text x="596.33" y="226.53" font-family="MiSans Normal, sans-serif" font-size="18.67" fill="#0D0D0D">{{RIGHT_TOP_TEXT}}</text>
+<!-- Right middle -->
+<ellipse cx="549.3" cy="351.73" rx="37.43" ry="38" fill="#324274" stroke="none"/>
+<text x="596.33" y="345.07" font-family="MiSans Normal, sans-serif" font-size="18.67" fill="#0D0D0D">{{RIGHT_MID_TEXT}}</text>
+<!-- Right bottom card -->
+<rect x="511.87" y="432.13" width="648.87" height="185.87" rx="30.98" ry="30.98" fill="none" stroke="#324274" stroke-width="1"/>
+<text x="677.23" y="533.07" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="18.67" fill="#0D0D0D">{{RIGHT_BOTTOM_LEFT_DESC}}</text>
+<text x="995.43" y="533.07" text-anchor="middle" font-family="MiSans Normal, sans-serif" font-size="18.67" fill="#0D0D0D">{{RIGHT_BOTTOM_RIGHT_DESC}}</text>
+</svg>
